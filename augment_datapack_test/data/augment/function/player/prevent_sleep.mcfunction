@@ -1,0 +1,1 @@
+function augment:player/sync_spawnpoint

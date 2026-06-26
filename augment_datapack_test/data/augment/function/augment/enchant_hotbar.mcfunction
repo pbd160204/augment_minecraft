@@ -1,0 +1,9 @@
+item modify entity @s hotbar.0 augment:random_enchant
+item modify entity @s hotbar.1 augment:random_enchant
+item modify entity @s hotbar.2 augment:random_enchant
+item modify entity @s hotbar.3 augment:random_enchant
+item modify entity @s hotbar.4 augment:random_enchant
+item modify entity @s hotbar.5 augment:random_enchant
+item modify entity @s hotbar.6 augment:random_enchant
+item modify entity @s hotbar.7 augment:random_enchant
+item modify entity @s hotbar.8 augment:random_enchant

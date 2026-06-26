@@ -1,0 +1,2 @@
+function augment:augment/roll_random_advanced
+function augment:augment/apply_random_advanced
