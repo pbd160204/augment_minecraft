@@ -1,3 +1,5 @@
+execute unless data storage augment:runtime unlock_migration run function augment:migrate_unlock_tracking
+execute unless data storage augment:runtime unlock_migration_v2 run function augment:migrate_unlock_tracking_v2
 scoreboard objectives add ag_state dummy
 scoreboard objectives add ag_math dummy
 scoreboard objectives add ag_alive dummy
@@ -124,6 +126,7 @@ scoreboard players set #bcool ag_math 0
 scoreboard players set #arena_ready ag_math 0
 scoreboard players set #hour ag_math 72000
 scoreboard players set #xpperiod ag_math 3600
+scoreboard players set #five ag_math 5
 scoreboard players set #shrinkstep ag_math 6000
 scoreboard players set #thirty ag_math 30
 scoreboard players set #twenty ag_math 20

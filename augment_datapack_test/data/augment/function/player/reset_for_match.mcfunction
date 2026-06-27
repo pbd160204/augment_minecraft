@@ -3,6 +3,9 @@ effect clear @s
 gamemode survival @s
 scoreboard players set @s ag_alive 1
 scoreboard players set @s ag_points 0
+scoreboard players set @s ag_lvlband 0
+scoreboard players set @s ag_lvlseen 0
+scoreboard players set @s ag_lvlraw 0
 scoreboard players set @s ag_xpbonus 0
 scoreboard players set @s ag_dseen 0
 scoreboard players set @s ag_c1 0

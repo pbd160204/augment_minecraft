@@ -1,5 +1,8 @@
 scoreboard players set @s ag_alive 0
 scoreboard players set @s ag_points 0
+scoreboard players set @s ag_lvlband 0
+scoreboard players set @s ag_lvlseen 0
+scoreboard players set @s ag_lvlraw 0
 scoreboard players set @s ag_c1 0
 scoreboard players set @s ag_c2 0
 scoreboard players set @s ag_c3 0

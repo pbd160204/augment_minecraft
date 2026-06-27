@@ -16,6 +16,7 @@ scoreboard players set #bprog ag_math 0
 scoreboard players set #bcool ag_math 0
 scoreboard players set #arena_ready ag_math 0
 scoreboard players set #hour ag_math 72000
-scoreboard players set #xpperiod ag_math 3600
+scoreboard players set #xpperiod ag_math 200
+scoreboard players set #five ag_math 5
 scoreboard players set #shrinkstep ag_math 6000
 tellraw @a [{"text":"[Augment] init step3 ok","color":"yellow"}]
