@@ -1,4 +1,4 @@
-execute store result score #daytime ag_math run time query time
+execute store result score #daytime ag_math run time query minecraft:day
 scoreboard players operation #daytime ag_math %= #daylen ag_math
 scoreboard players add #timer ag_math 1
 scoreboard players add #xpcycle ag_math 1
