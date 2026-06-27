@@ -127,6 +127,7 @@ scoreboard players set #xpperiod ag_math 3600
 scoreboard players set #shrinkstep ag_math 6000
 scoreboard players set #thirty ag_math 30
 scoreboard players set #twenty ag_math 20
+scoreboard players set #daylen ag_math 24000
 gamerule minecraft:keep_inventory true
 gamerule minecraft:immediate_respawn true
 gamerule minecraft:respawn_radius 0
@@ -134,4 +135,4 @@ gamerule minecraft:players_sleeping_percentage 100
 tick unfreeze
 execute in minecraft:overworld run worldborder center 0 0
 execute in minecraft:overworld run worldborder set 59999968
-tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"데이터팩을 불러왔습니다. /function augment:help 또는 /trigger ag_help set 1 로 안내를 확인하세요.","color":"white"}]
+tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"?곗씠?고뙥??遺덈윭?붿뒿?덈떎. /function augment:help ?먮뒗 /trigger ag_help set 1 濡??덈궡瑜??뺤씤?섏꽭??","color":"white"}]

@@ -1,0 +1,16 @@
+execute if score @s ag_hpbonus matches ..20 run attribute @s minecraft:max_health base set 20
+execute if score @s ag_hpbonus matches 26 run attribute @s minecraft:max_health base set 26
+execute if score @s ag_hpbonus matches 30 run attribute @s minecraft:max_health base set 30
+execute if score @s ag_hpbonus matches 32 run attribute @s minecraft:max_health base set 32
+execute if score @s ag_hpbonus matches 36 run attribute @s minecraft:max_health base set 36
+execute if score @s ag_hpbonus matches 38 run attribute @s minecraft:max_health base set 38
+execute if score @s ag_hpbonus matches 40 run attribute @s minecraft:max_health base set 40
+execute if score @s ag_hpbonus matches 42 run attribute @s minecraft:max_health base set 42
+execute if score @s ag_hpbonus matches 46 run attribute @s minecraft:max_health base set 46
+execute if score @s ag_hpbonus matches 48 run attribute @s minecraft:max_health base set 48
+execute if score @s ag_hpbonus matches 52 run attribute @s minecraft:max_health base set 52
+execute if score @s ag_hpbonus matches 58.. run attribute @s minecraft:max_health base set 58
+execute if score @s ag_dmgbonus matches ..1 run attribute @s minecraft:attack_damage base set 1
+execute if score @s ag_dmgbonus matches 3 run attribute @s minecraft:attack_damage base set 3
+execute if score @s ag_dmgbonus matches 4 run attribute @s minecraft:attack_damage base set 4
+execute if score @s ag_dmgbonus matches 6.. run attribute @s minecraft:attack_damage base set 6

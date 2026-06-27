@@ -1,3 +1,5 @@
+execute store result score #daytime ag_math run time query time
+scoreboard players operation #daytime ag_math %= #daylen ag_math
 execute if score #dbg ag_test matches 1 run title @s actionbar [{"text":"dbg a1=","color":"yellow"},{"score":{"name":"@s","objective":"ag_aug1"},"color":"aqua"},{"text":" a3=","color":"yellow"},{"score":{"name":"@s","objective":"ag_aug3"},"color":"aqua"},{"text":" a25=","color":"yellow"},{"score":{"name":"@s","objective":"ag_aug25"},"color":"aqua"}]
 execute if score @s ag_aug1 matches 1.. run effect give @s minecraft:fire_resistance 5 0 true
 execute if score @s ag_aug1 matches 1.. run effect give @s minecraft:resistance 5 0 true

@@ -1,2 +1,2 @@
-$attribute @s minecraft:generic.max_health base set $(hp)
-$attribute @s minecraft:generic.attack_damage base set $(dmg)
+$attribute @s minecraft:max_health base set $(hp)
+$attribute @s minecraft:attack_damage base set $(dmg)

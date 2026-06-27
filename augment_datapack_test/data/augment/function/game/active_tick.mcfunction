@@ -1,4 +1,5 @@
-execute store result score #daytime ag_math run time query daytime
+execute store result score #daytime ag_math run time query time
+scoreboard players operation #daytime ag_math %= #daylen ag_math
 scoreboard players add #timer ag_math 1
 scoreboard players add #xpcycle ag_math 1
 execute if score #state ag_math matches 1 run function augment:game/gather_tick
