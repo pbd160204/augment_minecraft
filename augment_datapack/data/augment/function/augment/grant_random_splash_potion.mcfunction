@@ -1,0 +1,10 @@
+execute store result score #tmp ag_math run random value 1..9
+execute if score #tmp ag_math matches 1 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:poison",amplifier:0,duration:100}]}]
+execute if score #tmp ag_math matches 2 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:weakness",amplifier:0,duration:160}]}]
+execute if score #tmp ag_math matches 3 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:slowness",amplifier:1,duration:100}]}]
+execute if score #tmp ag_math matches 4 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:instant_damage",amplifier:1,duration:1}]}]
+execute if score #tmp ag_math matches 5 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:instant_health",amplifier:1,duration:1}]}]
+execute if score #tmp ag_math matches 6 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:regeneration",amplifier:1,duration:200}]}]
+execute if score #tmp ag_math matches 7 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:speed",amplifier:1,duration:1800}]}]
+execute if score #tmp ag_math matches 8 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:1800}]}]
+execute if score #tmp ag_math matches 9 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:invisibility",amplifier:0,duration:300,show_particles:0b}]}]

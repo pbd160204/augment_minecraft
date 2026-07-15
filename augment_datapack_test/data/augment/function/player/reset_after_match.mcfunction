@@ -13,6 +13,15 @@ scoreboard players set @s ag_help 0
 scoreboard players set @s ag_advmenu 0
 scoreboard players set @s ag_advpick 0
 scoreboard players set @s ag_shopbuy 0
+scoreboard players set @s ag_adv_enchant 0
+scoreboard players set @s ag_anvil 0
+scoreboard players set @s ag_lapis 0
+scoreboard players operation @s ag_fireseen = @s ag_fireuse
+scoreboard players operation @s ag_snowseen = @s ag_snowuse
+tag @s remove augment.fireball_armed
+tag @s remove augment.age25_catalyst_armed
+tag @s remove augment.age30_catalyst_armed
+tag @s remove augment.morello_anvil_armed
 scoreboard players set @s ag_owned 0
 scoreboard players set @s ag_advowned 0
 scoreboard players set @s ag_catsurv 0

@@ -14,3 +14,5 @@ execute if score @s ag_dmgbonus matches ..1 run attribute @s minecraft:attack_da
 execute if score @s ag_dmgbonus matches 3 run attribute @s minecraft:attack_damage base set 3
 execute if score @s ag_dmgbonus matches 4 run attribute @s minecraft:attack_damage base set 4
 execute if score @s ag_dmgbonus matches 6.. run attribute @s minecraft:attack_damage base set 6
+execute unless score @s ag_aug5 matches 1.. run attribute @s minecraft:movement_efficiency base set 0
+execute if score @s ag_aug5 matches 1.. run attribute @s minecraft:movement_efficiency base set 1
