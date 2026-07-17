@@ -16,6 +16,7 @@ scoreboard players operation #btarget_x ag_math = #bx ag_math
 scoreboard players operation #btarget_z ag_math = #bz ag_math
 scoreboard players operation #bstart_size ag_math = #bsize ag_math
 scoreboard players operation #btarget_size ag_math = #bsize ag_math
+function augment:game/interpolate_border
 gamerule minecraft:keep_inventory true
 gamerule minecraft:players_sleeping_percentage 100
 tick unfreeze

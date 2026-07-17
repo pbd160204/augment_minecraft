@@ -5,11 +5,14 @@ scoreboard players set #xpcycle ag_math 0
 scoreboard players set #bnext ag_math 6000
 scoreboard players set #bprog ag_math 0
 scoreboard players set #bcool ag_math 0
+execute in minecraft:overworld run worldborder center 0 0
+execute in minecraft:overworld run worldborder set 59999968
 gamerule minecraft:keep_inventory true
 gamerule minecraft:players_sleeping_percentage 100
 effect clear @a minecraft:slowness
 effect clear @a minecraft:mining_fatigue
 effect clear @a minecraft:weakness
+kill @e[type=minecraft:creeper,tag=augment.bomb_charge_creeper]
 execute as @a run function augment:player/reset_after_match
 clear @a
 effect clear @a

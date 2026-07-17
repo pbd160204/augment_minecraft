@@ -12,6 +12,7 @@ scoreboard players set @s ag_c1 0
 scoreboard players set @s ag_c2 0
 scoreboard players set @s ag_c3 0
 scoreboard players set @s ag_menuopen 0
+scoreboard players set @s ag_mwait 0
 scoreboard players set @s ag_menu 0
 scoreboard players set @s ag_pick 0
 scoreboard players set @s ag_help 0
@@ -24,6 +25,8 @@ scoreboard players set @s ag_lapis 0
 scoreboard players operation @s ag_fireseen = @s ag_fireuse
 scoreboard players operation @s ag_snowseen = @s ag_snowuse
 tag @s remove augment.fireball_armed
+tag @s remove augment.bomb_charge_armed
+tag @s remove augment.bomb_charge_placed
 tag @s remove augment.age25_catalyst_armed
 tag @s remove augment.age30_catalyst_armed
 tag @s remove augment.morello_anvil_armed
@@ -41,6 +44,7 @@ scoreboard players set @s ag_bwiz 0
 scoreboard players set @s ag_bmine 0
 scoreboard players set @s ag_advpts 0
 scoreboard players set @s ag_advopen 0
+scoreboard players set @s ag_advwait 0
 scoreboard players set @s ag_echarges 0
 scoreboard players set @s ag_am1 0
 scoreboard players set @s ag_am2 0

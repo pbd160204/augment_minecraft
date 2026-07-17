@@ -6,7 +6,9 @@ scoreboard objectives add ag_advpts dummy
 scoreboard objectives add ag_owned dummy
 scoreboard objectives add ag_advowned dummy
 scoreboard objectives add ag_menuopen dummy
+scoreboard objectives add ag_mwait dummy
 scoreboard objectives add ag_advopen dummy
+scoreboard objectives add ag_advwait dummy
 scoreboard objectives add ag_lvlband dummy
 scoreboard objectives add ag_lvlseen dummy
 scoreboard objectives add ag_lvlraw dummy

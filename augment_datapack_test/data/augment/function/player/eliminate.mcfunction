@@ -3,7 +3,9 @@ execute if score @s ag_aaug1 matches 1.. if score @s ag_onceko matches 0 run ret
 scoreboard players set @s ag_alive 0
 scoreboard players operation @s ag_dseen = @s ag_deaths
 scoreboard players set @s ag_menuopen 0
+scoreboard players set @s ag_mwait 0
 scoreboard players set @s ag_advopen 0
+scoreboard players set @s ag_advwait 0
 scoreboard players set @s ag_c1 0
 scoreboard players set @s ag_c2 0
 scoreboard players set @s ag_c3 0

@@ -11,5 +11,4 @@ scoreboard players set #bstart_size ag_math 1000
 scoreboard players set #btarget_size ag_math 1000
 scoreboard players set #bprog ag_math 30
 scoreboard players set #arena_ready ag_math 1
-function augment:game/interpolate_border
 tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"현재 관리자 위치를 기준으로 1000x1000 경기장을 설정했습니다.","color":"white"}]

@@ -1,7 +1,8 @@
-execute store result score #tmp ag_math run clear @s diamond 0
-execute unless score #tmp ag_math matches 1.. run tellraw @s [{"text":"[Shop] 다이아가 부족합니다.","color":"red"}]
-execute unless score #tmp ag_math matches 1.. run scoreboard players set @s ag_shopbuy 0
-execute unless score #tmp ag_math matches 1.. run return fail
-clear @s diamond 1
-give @s firework_rocket
+execute unless score @s ag_catmine matches 3.. run tellraw @s [{"text":"[Shop] 채굴 계열 3중첩으로 업그레이드 상점을 해금해야 합니다.","color":"red"}]
+execute unless score @s ag_catmine matches 3.. run scoreboard players set @s ag_shopbuy 0
+execute unless score @s ag_catmine matches 3.. run return fail
+scoreboard players set #price ag_math 1
+execute if score @s ag_catmine matches 3.. run scoreboard players set #price ag_math 1
+function augment:shop/charge
+execute if score #paid ag_math matches 1 run give @s firework_rocket
 scoreboard players set @s ag_shopbuy 0

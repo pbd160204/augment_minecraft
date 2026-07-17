@@ -1,9 +1,36 @@
-item modify entity @s hotbar.0 augment:random_enchant
-item modify entity @s hotbar.1 augment:random_enchant
-item modify entity @s hotbar.2 augment:random_enchant
-item modify entity @s hotbar.3 augment:random_enchant
-item modify entity @s hotbar.4 augment:random_enchant
-item modify entity @s hotbar.5 augment:random_enchant
-item modify entity @s hotbar.6 augment:random_enchant
-item modify entity @s hotbar.7 augment:random_enchant
-item modify entity @s hotbar.8 augment:random_enchant
+function augment:augment/enchant_hotbar_slot_0
+function augment:augment/enchant_hotbar_slot_1
+function augment:augment/enchant_hotbar_slot_2
+function augment:augment/enchant_hotbar_slot_3
+function augment:augment/enchant_hotbar_slot_4
+function augment:augment/enchant_hotbar_slot_5
+function augment:augment/enchant_hotbar_slot_6
+function augment:augment/enchant_hotbar_slot_7
+function augment:augment/enchant_hotbar_slot_8
+function augment:augment/enchant_inventory_slot_0
+function augment:augment/enchant_inventory_slot_1
+function augment:augment/enchant_inventory_slot_2
+function augment:augment/enchant_inventory_slot_3
+function augment:augment/enchant_inventory_slot_4
+function augment:augment/enchant_inventory_slot_5
+function augment:augment/enchant_inventory_slot_6
+function augment:augment/enchant_inventory_slot_7
+function augment:augment/enchant_inventory_slot_8
+function augment:augment/enchant_inventory_slot_9
+function augment:augment/enchant_inventory_slot_10
+function augment:augment/enchant_inventory_slot_11
+function augment:augment/enchant_inventory_slot_12
+function augment:augment/enchant_inventory_slot_13
+function augment:augment/enchant_inventory_slot_14
+function augment:augment/enchant_inventory_slot_15
+function augment:augment/enchant_inventory_slot_16
+function augment:augment/enchant_inventory_slot_17
+function augment:augment/enchant_inventory_slot_18
+function augment:augment/enchant_inventory_slot_19
+function augment:augment/enchant_inventory_slot_20
+function augment:augment/enchant_inventory_slot_21
+function augment:augment/enchant_inventory_slot_22
+function augment:augment/enchant_inventory_slot_23
+function augment:augment/enchant_inventory_slot_24
+function augment:augment/enchant_inventory_slot_25
+function augment:augment/enchant_inventory_slot_26

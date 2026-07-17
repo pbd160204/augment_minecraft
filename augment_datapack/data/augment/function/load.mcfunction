@@ -2,6 +2,7 @@ execute unless data storage augment:runtime unlock_migration run function augmen
 execute unless data storage augment:runtime unlock_migration_v2 run function augment:migrate_unlock_tracking_v2
 execute unless data storage augment:runtime feature_v3 run function augment:migrate_feature_v3
 execute unless data storage augment:runtime feature_v4 run function augment:migrate_feature_v4
+execute unless data storage augment:runtime feature_v5 run function augment:migrate_feature_v5
 scoreboard objectives add ag_state dummy
 scoreboard objectives add ag_math dummy
 scoreboard objectives add ag_alive dummy
@@ -16,6 +17,7 @@ scoreboard objectives add ag_c1 dummy
 scoreboard objectives add ag_c2 dummy
 scoreboard objectives add ag_c3 dummy
 scoreboard objectives add ag_menuopen dummy
+scoreboard objectives add ag_mwait dummy
 scoreboard objectives add ag_menu trigger
 scoreboard objectives add ag_pick trigger
 scoreboard objectives add ag_help trigger
@@ -37,6 +39,7 @@ scoreboard objectives add ag_bwiz dummy
 scoreboard objectives add ag_bmine dummy
 scoreboard objectives add ag_advpts dummy
 scoreboard objectives add ag_advopen dummy
+scoreboard objectives add ag_advwait dummy
 scoreboard objectives add ag_echarges dummy
 scoreboard objectives add ag_am1 dummy
 scoreboard objectives add ag_am2 dummy
@@ -44,6 +47,8 @@ scoreboard objectives add ag_am3 dummy
 scoreboard objectives add ag_shopunlock dummy
 scoreboard objectives add ag_hpbonus dummy
 scoreboard objectives add ag_dmgbonus dummy
+scoreboard players add @a ag_mwait 0
+scoreboard players add @a ag_advwait 0
 scoreboard objectives add ag_kills minecraft.custom:minecraft.mob_kills
 scoreboard objectives add ag_kseen dummy
 scoreboard objectives add ag_stone minecraft.mined:minecraft.stone

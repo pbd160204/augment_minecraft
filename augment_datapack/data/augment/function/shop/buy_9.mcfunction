@@ -1,7 +1,5 @@
-execute store result score #tmp ag_math run clear @s diamond 0
-execute unless score #tmp ag_math matches 15.. run tellraw @s [{"text":"[Shop] 다이아가 부족합니다.","color":"red"}]
-execute unless score #tmp ag_math matches 15.. run scoreboard players set @s ag_shopbuy 0
-execute unless score #tmp ag_math matches 15.. run return fail
-clear @s diamond 15
-give @s netherite_helmet
+scoreboard players set #price ag_math 15
+execute if score @s ag_catmine matches 3.. run scoreboard players set #price ag_math 11
+function augment:shop/charge
+execute if score #paid ag_math matches 1 run give @s netherite_helmet
 scoreboard players set @s ag_shopbuy 0
