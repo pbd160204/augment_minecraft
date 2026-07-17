@@ -9,4 +9,4 @@ tellraw @s [{"text":"[10] 네더라이트 흉갑 - 다이아 24","color":"gold",
 tellraw @s [{"text":"[11] 네더라이트 바지 - 다이아 21","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 11"}}]
 tellraw @s [{"text":"[12] 네더라이트 부츠 - 다이아 12","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 12"}}]
 tellraw @s [{"text":"[13] 내구성 II 방패 - 다이아 32","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 13"}}]
-execute if score @s ag_shopunlock matches 1.. run tellraw @s [{"text":"[15] 15초 투명화 물약 - 다이아 10","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 15"}}]
+execute if score @s ag_shopunlock matches 1.. run tellraw @s [{"text":"[15] 1분 투명화 물약 - 다이아 10","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 15"}}]

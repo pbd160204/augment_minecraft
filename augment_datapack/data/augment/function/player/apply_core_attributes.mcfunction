@@ -1,4 +1,5 @@
-execute if score @s ag_hpbonus matches ..20 run attribute @s minecraft:max_health base set 20
+execute if score @s ag_hpbonus matches 10 run attribute @s minecraft:max_health base set 10
+execute if score @s ag_hpbonus matches 11..20 run attribute @s minecraft:max_health base set 20
 execute if score @s ag_hpbonus matches 26 run attribute @s minecraft:max_health base set 26
 execute if score @s ag_hpbonus matches 30 run attribute @s minecraft:max_health base set 30
 execute if score @s ag_hpbonus matches 32 run attribute @s minecraft:max_health base set 32

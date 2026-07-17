@@ -82,4 +82,12 @@ scoreboard objectives add ag_aaug5 dummy
 scoreboard objectives add ag_aaug6 dummy
 scoreboard objectives add ag_aaug7 dummy
 scoreboard objectives add ag_onceko dummy
+scoreboard objectives add ag_onecotime dummy
+scoreboard objectives add ag_lastx dummy
+scoreboard objectives add ag_lasty dummy
+scoreboard objectives add ag_lastz dummy
+scoreboard players add @a ag_onecotime 0
+scoreboard players add @a ag_lastx 0
+scoreboard players add @a ag_lasty 0
+scoreboard players add @a ag_lastz 0
 data modify storage augment:runtime migrated_objectives set value 1b

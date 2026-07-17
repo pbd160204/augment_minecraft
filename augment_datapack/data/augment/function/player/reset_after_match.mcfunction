@@ -82,4 +82,5 @@ scoreboard players set @s ag_aaug5 0
 scoreboard players set @s ag_aaug6 0
 scoreboard players set @s ag_aaug7 0
 scoreboard players set @s ag_onceko 0
+scoreboard players set @s ag_onecotime 0
 xp set @s 0 levels

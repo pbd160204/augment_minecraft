@@ -23,7 +23,7 @@ tellraw @s [{"text":"<약 먹는 천재 마법사>","color":"light_purple"},{"te
 tellraw @s [{"text":"<모렐로노미콘>","color":"light_purple"},{"text":" : 강화 책 1권과 무경험치 모루","color":"gray"}]
 tellraw @s [{"text":"<전투 메이지>","color":"light_purple"},{"text":" : 돌풍구와 화염구 지급","color":"gray"}]
 tellraw @s [{"text":"<쓰리투원>","color":"light_purple"},{"text":" : 핫바 아이템 무작위 인챈트","color":"gray"}]
-tellraw @s [{"text":"<투명 망토>","color":"light_purple"},{"text":" : 15초 투명화 물약 3개","color":"gray"}]
+tellraw @s [{"text":"<투명 망토>","color":"light_purple"},{"text":" : 1분 투명화 물약 3개","color":"gray"}]
 tellraw @s [{"text":"<연금술 I>","color":"light_purple"},{"text":" : 무작위 고급 증강 1개","color":"gray"}]
 tellraw @s [{"text":"<연금술 II>","color":"light_purple"},{"text":" : 무작위 고급 증강 1개","color":"gray"}]
 tellraw @s [{"text":"<연금술 III>","color":"light_purple"},{"text":" : 무작위 고급 증강 1개","color":"gray"}]

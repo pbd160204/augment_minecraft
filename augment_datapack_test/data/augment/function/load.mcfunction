@@ -7,7 +7,15 @@ execute unless data storage augment:runtime feature_v5 run function augment:migr
 execute unless data storage augment:runtime init run function augment:bootstrap
 scoreboard objectives add ag_mwait dummy
 scoreboard objectives add ag_advwait dummy
+scoreboard objectives add ag_onecotime dummy
+scoreboard objectives add ag_lastx dummy
+scoreboard objectives add ag_lasty dummy
+scoreboard objectives add ag_lastz dummy
 scoreboard players add @a ag_mwait 0
 scoreboard players add @a ag_advwait 0
+scoreboard players add @a ag_onecotime 0
+scoreboard players add @a ag_lastx 0
+scoreboard players add @a ag_lasty 0
+scoreboard players add @a ag_lastz 0
 scoreboard players set #five ag_math 5
 tellraw @a [{"text":"[Augment] load function called","color":"green"}]

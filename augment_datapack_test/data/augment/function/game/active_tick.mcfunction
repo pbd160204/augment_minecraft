@@ -3,6 +3,7 @@ scoreboard players operation #daytime ag_math %= #daylen ag_math
 scoreboard players add #timer ag_math 1
 scoreboard players add #xpcycle ag_math 1
 execute if score #state ag_math matches 1 run function augment:game/gather_tick
+execute as @a[scores={ag_alive=1}] if score #state ag_math matches 2 if score @s ag_deaths = @s ag_dseen run function augment:player/record_last_position
 execute if score #state ag_math matches 2 run function augment:game/pvp_tick
 execute if score #state ag_math matches 1..2 run function augment:game/enforce_overworld
 execute as @a[scores={ag_mwait=1..}] run scoreboard players remove @s ag_mwait 1

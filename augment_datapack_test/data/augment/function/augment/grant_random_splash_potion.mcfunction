@@ -7,4 +7,4 @@ execute if score #tmp ag_math matches 5 run give @s minecraft:splash_potion[poti
 execute if score #tmp ag_math matches 6 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:regeneration",amplifier:1,duration:200}]}]
 execute if score #tmp ag_math matches 7 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:speed",amplifier:1,duration:1800}]}]
 execute if score #tmp ag_math matches 8 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:1800}]}]
-execute if score #tmp ag_math matches 9 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:invisibility",amplifier:0,duration:300,show_particles:0b}]}]
+execute if score #tmp ag_math matches 9 run give @s minecraft:splash_potion[potion_contents={custom_effects:[{id:"minecraft:invisibility",amplifier:0,duration:1200,show_particles:0b}]}]
