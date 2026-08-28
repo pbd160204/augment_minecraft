@@ -1,0 +1,1 @@
+give @s minecraft:netherite_boots[minecraft:enchantments={"minecraft:feather_falling":4,"minecraft:protection":4,"minecraft:fire_protection":4,"minecraft:projectile_protection":4,"minecraft:unbreaking":3,"minecraft:depth_strider":3,"minecraft:thorns":3}] 1

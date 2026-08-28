@@ -5,4 +5,4 @@ scoreboard players add @s ag_catcomb 1
 give @s bow[enchantments={power:3,infinity:1}]
 give @s arrow 1
 tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"고급 증강 탑베인 획득 - 강화 활을 획득합니다.","color":"light_purple"}]
-function augment:augment/finalize_adv_choice
+function augment:augment/finish_aaug_grant

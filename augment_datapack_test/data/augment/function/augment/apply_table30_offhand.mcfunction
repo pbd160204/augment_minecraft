@@ -1,0 +1,3 @@
+execute if items entity @s weapon.offhand minecraft:stone_hoe[minecraft:custom_data~{augment:{farmer_weapon:1b}}] run function augment:augment/enchant_farmer_weapon_offhand
+execute unless items entity @s weapon.offhand minecraft:stone_hoe[minecraft:custom_data~{augment:{farmer_weapon:1b}}] if items entity @s weapon.offhand minecraft:stone_hoe[minecraft:custom_name~{text:"\uB18D\uBD80\uC758 \uBB34\uAE30"}] run function augment:augment/enchant_farmer_weapon_offhand
+execute unless items entity @s weapon.offhand minecraft:stone_hoe[minecraft:custom_data~{augment:{farmer_weapon:1b}}] unless items entity @s weapon.offhand minecraft:stone_hoe[minecraft:custom_name~{text:"\uB18D\uBD80\uC758 \uBB34\uAE30"}] run item modify entity @s weapon.offhand augment:table30_enchant

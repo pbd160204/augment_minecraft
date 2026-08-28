@@ -1,0 +1,1 @@
+give @s minecraft:spyglass[minecraft:custom_name={text:"증강 선택 리모컨",color:"light_purple",italic:false},minecraft:item_model="minecraft:enchanted_book",minecraft:lore=[{text:"우클릭: 일반 증강 선택 메뉴 열기",color:"gray",italic:false}],minecraft:custom_data={augment:{tool:"augment_menu_remote"}}] 1

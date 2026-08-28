@@ -6,3 +6,4 @@ execute if score @s ag_aaug4 matches 1.. run scoreboard players add @s ag_advown
 execute if score @s ag_aaug5 matches 1.. run scoreboard players add @s ag_advowned 1
 execute if score @s ag_aaug6 matches 1.. run scoreboard players add @s ag_advowned 1
 execute if score @s ag_aaug7 matches 1.. run scoreboard players add @s ag_advowned 1
+execute if score @s ag_aaug8 matches 1.. run scoreboard players add @s ag_advowned 1

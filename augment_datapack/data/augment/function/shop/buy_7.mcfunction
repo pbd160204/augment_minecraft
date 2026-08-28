@@ -1,3 +1,5 @@
+execute if score @s ag_farmshop matches 1.. run function augment:shop/farm_buy_7
+execute if score @s ag_farmshop matches 1.. run return fail
 scoreboard players set #price ag_math 10
 execute if score @s ag_catmine matches 3.. run scoreboard players set #price ag_math 7
 function augment:shop/charge

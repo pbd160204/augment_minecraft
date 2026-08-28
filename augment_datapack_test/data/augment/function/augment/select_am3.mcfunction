@@ -5,3 +5,4 @@ execute if score @s ag_am3 matches 4 run function augment:augment/grant_aaug4
 execute if score @s ag_am3 matches 5 run function augment:augment/grant_aaug5
 execute if score @s ag_am3 matches 6 run function augment:augment/grant_aaug6
 execute if score @s ag_am3 matches 7 run function augment:augment/grant_aaug7
+execute if score @s ag_am3 matches 8 run function augment:augment/grant_aaug8

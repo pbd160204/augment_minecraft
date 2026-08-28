@@ -1,0 +1,2 @@
+function augment:player/apply_core_attributes
+function augment:player/apply_reach_attributes

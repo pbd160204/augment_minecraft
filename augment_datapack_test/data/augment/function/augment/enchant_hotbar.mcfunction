@@ -34,3 +34,7 @@ function augment:augment/enchant_inventory_slot_23
 function augment:augment/enchant_inventory_slot_24
 function augment:augment/enchant_inventory_slot_25
 function augment:augment/enchant_inventory_slot_26
+function augment:augment/enchant_armor_head
+function augment:augment/enchant_armor_chest
+function augment:augment/enchant_armor_legs
+function augment:augment/enchant_armor_feet

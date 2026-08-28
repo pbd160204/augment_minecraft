@@ -22,3 +22,4 @@ execute unless entity @s[tag=augment.bomb_charge_placed] anchored eyes positione
 execute unless entity @s[tag=augment.bomb_charge_placed] anchored eyes positioned ^ ^ ^5.5 if block ~ ~ ~ minecraft:tnt run function augment:augment/ignite_bomb_charge
 execute unless entity @s[tag=augment.bomb_charge_placed] anchored eyes positioned ^ ^ ^5.75 if block ~ ~ ~ minecraft:tnt run function augment:augment/ignite_bomb_charge
 execute unless entity @s[tag=augment.bomb_charge_placed] anchored eyes positioned ^ ^ ^6 if block ~ ~ ~ minecraft:tnt run function augment:augment/ignite_bomb_charge
+function augment:augment/find_bomb_charge_nearby

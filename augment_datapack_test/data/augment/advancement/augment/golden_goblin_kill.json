@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "kill_golden_goblin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:player",
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "augment.golden_goblin"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "augment:augment/on_golden_goblin_kill"
+  }
+}

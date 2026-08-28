@@ -26,3 +26,13 @@ execute if score @s ag_aug24 matches 1.. run scoreboard players add @s ag_owned 
 execute if score @s ag_aug25 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug26 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug27 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug28 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug29 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug30 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug31 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug32 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug33 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug34 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug35 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug36 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug37 matches 1.. run scoreboard players add @s ag_owned 1

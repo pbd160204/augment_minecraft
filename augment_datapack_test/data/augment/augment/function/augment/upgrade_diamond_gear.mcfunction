@@ -1,0 +1,15 @@
+item modify entity @s armor.head augment:upgrade_diamond_gear
+item modify entity @s armor.chest augment:upgrade_diamond_gear
+item modify entity @s armor.legs augment:upgrade_diamond_gear
+item modify entity @s armor.feet augment:upgrade_diamond_gear
+item modify entity @s weapon.mainhand augment:upgrade_diamond_gear
+item modify entity @s weapon.offhand augment:upgrade_diamond_gear
+item modify entity @s hotbar.0 augment:upgrade_diamond_gear
+item modify entity @s hotbar.1 augment:upgrade_diamond_gear
+item modify entity @s hotbar.2 augment:upgrade_diamond_gear
+item modify entity @s hotbar.3 augment:upgrade_diamond_gear
+item modify entity @s hotbar.4 augment:upgrade_diamond_gear
+item modify entity @s hotbar.5 augment:upgrade_diamond_gear
+item modify entity @s hotbar.6 augment:upgrade_diamond_gear
+item modify entity @s hotbar.7 augment:upgrade_diamond_gear
+item modify entity @s hotbar.8 augment:upgrade_diamond_gear

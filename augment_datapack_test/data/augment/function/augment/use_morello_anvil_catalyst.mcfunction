@@ -1,8 +1,8 @@
 scoreboard players set #valid ag_math 1
 execute unless score @s ag_aug18 matches 1.. run scoreboard players set #valid ag_math 0
 execute unless score @s ag_aug18 matches 1.. run tellraw @s [{"text":"[Augment] 모렐로노미콘을 보유하고 있지 않습니다.","color":"red"}]
-execute if items entity @s weapon.offhand minecraft:air run scoreboard players set #valid ag_math 0
-execute if items entity @s weapon.offhand minecraft:air run tellraw @s [{"text":"[Augment] 강화할 아이템을 왼손에 들어야 합니다.","color":"red"}]
+execute unless items entity @s weapon.offhand * run scoreboard players set #valid ag_math 0
+execute unless items entity @s weapon.offhand * run tellraw @s [{"text":"[Augment] 강화할 아이템을 왼손에 들어야 합니다.","color":"red"}]
 scoreboard players set #book ag_math 0
 execute if score #valid ag_math matches 1 store result score #tmp ag_math run clear @s minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"sharpness"}}] 0
 execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run scoreboard players set #book ag_math 1

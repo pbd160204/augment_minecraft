@@ -1,4 +1,5 @@
-execute store result score #tmp ag_math run random value 1..27
+execute store result score #tmp ag_math run random value 1..36
+execute if score #tmp ag_math matches 19.. run scoreboard players add #tmp ag_math 1
 scoreboard players operation @s ag_c3 = #tmp ag_math
 execute if score @s ag_c3 = @s ag_c1 run function augment:augment/roll_c3
 execute if score @s ag_c3 = @s ag_c2 run function augment:augment/roll_c3
@@ -29,3 +30,18 @@ execute if score @s ag_c3 matches 24 if score @s ag_aug24 matches 1.. run functi
 execute if score @s ag_c3 matches 25 if score @s ag_aug25 matches 1.. run function augment:augment/roll_c3
 execute if score @s ag_c3 matches 26 if score @s ag_aug26 matches 1.. run function augment:augment/roll_c3
 execute if score @s ag_c3 matches 27 if score @s ag_aug27 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 28 if score @s ag_aug28 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 29 if score @s ag_aug29 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 30 if score @s ag_aug30 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 31 if score @s ag_aug31 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 32 if score @s ag_aug32 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 33 if score @s ag_aug33 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 34 if score @s ag_aug34 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 35 if score @s ag_aug35 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 36 if score @s ag_aug36 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_c3 matches 37 if score @s ag_aug37 matches 1.. run function augment:augment/roll_c3
+execute if score @s ag_lvlraw matches 25.. if score @s ag_c3 matches 15 run function augment:augment/roll_c3
+execute if score @s ag_lvlraw matches 25.. if score @s ag_c3 matches 28 run function augment:augment/roll_c3
+execute if score @s ag_lvlraw matches 25.. if score @s ag_c3 matches 29 run function augment:augment/roll_c3
+execute if score @s ag_lvlraw matches 25.. if score @s ag_c3 matches 30 run function augment:augment/roll_c3
+execute if score @s ag_lvlraw matches 25.. if score @s ag_c3 matches 31 run function augment:augment/roll_c3

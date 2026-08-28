@@ -9,6 +9,6 @@ execute if score #bsize ag_math matches 600 run function augment:game/shrink_fro
 execute if score #bsize ag_math matches 400 run function augment:game/shrink_from_400
 execute if score #bsize ag_math matches 200 run function augment:game/shrink_from_200
 scoreboard players set #bprog ag_math 0
-scoreboard players set #bcool ag_math 20
+scoreboard players set #bcool ag_math 19
 scoreboard players add #bnext ag_math 6000
-tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"월드보더가 30초 동안 새로운 중심으로 축소됩니다.","color":"red"}]
+tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"월드보더가 5분 동안 새로운 중심으로 축소됩니다.","color":"red"}]

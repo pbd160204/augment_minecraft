@@ -3,7 +3,7 @@ scoreboard players set @s ag_onecotime 300
 tag @s add augment.oneco_just_revived
 scoreboard players operation @s ag_dseen = @s ag_deaths
 gamemode survival @s
-attribute @s minecraft:max_health base set 10
+function augment:player/apply_health
 effect give @s minecraft:invisibility 15 0 true
 effect give @s minecraft:speed 10 0 true
 scoreboard players set @s ag_alive 1

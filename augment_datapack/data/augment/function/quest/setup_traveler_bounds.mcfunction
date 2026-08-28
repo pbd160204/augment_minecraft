@@ -1,0 +1,19 @@
+scoreboard players set #trav_ten ag_math 10
+scoreboard players operation #trav_half ag_math = #bsize ag_math
+scoreboard players operation #trav_half ag_math /= #two ag_math
+scoreboard players operation #trav_xmin ag_math = #bx ag_math
+scoreboard players operation #trav_xmin ag_math -= #trav_half ag_math
+scoreboard players operation #trav_xmax ag_math = #bx ag_math
+scoreboard players operation #trav_xmax ag_math += #trav_half ag_math
+scoreboard players operation #trav_zmin ag_math = #bz ag_math
+scoreboard players operation #trav_zmin ag_math -= #trav_half ag_math
+scoreboard players operation #trav_zmax ag_math = #bz ag_math
+scoreboard players operation #trav_zmax ag_math += #trav_half ag_math
+scoreboard players operation #trav_westmax ag_math = #trav_xmin ag_math
+scoreboard players operation #trav_westmax ag_math += #trav_ten ag_math
+scoreboard players operation #trav_eastmin ag_math = #trav_xmax ag_math
+scoreboard players operation #trav_eastmin ag_math -= #trav_ten ag_math
+scoreboard players operation #trav_northmax ag_math = #trav_zmin ag_math
+scoreboard players operation #trav_northmax ag_math += #trav_ten ag_math
+scoreboard players operation #trav_southmin ag_math = #trav_zmax ag_math
+scoreboard players operation #trav_southmin ag_math -= #trav_ten ag_math

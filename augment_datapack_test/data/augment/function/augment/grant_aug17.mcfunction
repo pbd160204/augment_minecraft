@@ -8,8 +8,5 @@ function augment:augment/grant_random_splash_potion
 function augment:augment/grant_random_splash_potion
 function augment:augment/grant_random_splash_potion
 function augment:augment/grant_random_splash_potion
-function augment:augment/grant_random_splash_potion
-function augment:augment/grant_random_splash_potion
-function augment:augment/grant_random_splash_potion
-tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"약 먹는 천재 마법사 획득 - 무작위 물약 묶음을 획득합니다.","color":"aqua"}]
+tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"약 먹는 천재 마법사 획득 - 무작위 투척용 물약 6개를 획득합니다.","color":"aqua"}]
 function augment:augment/finalize_choice

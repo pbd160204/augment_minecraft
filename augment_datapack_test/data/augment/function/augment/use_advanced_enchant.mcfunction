@@ -7,5 +7,5 @@ execute store result score @s ag_lapis run clear @s minecraft:lapis_lazuli 0
 execute unless score @s ag_lapis matches 32.. run tellraw @s [{"text":"[Augment] 청금석 32개가 필요합니다.","color":"red"}]
 execute unless score @s ag_lapis matches 32.. run return fail
 clear @s minecraft:lapis_lazuli 32
-item modify entity @s weapon.mainhand augment:table30_enchant
+function augment:augment/apply_table30_mainhand
 tellraw @s [{"text":"[Augment] 청금석 32개를 소모하여 30레벨 강화(경험치 비용 없음)를 적용했습니다.","color":"light_purple"}]

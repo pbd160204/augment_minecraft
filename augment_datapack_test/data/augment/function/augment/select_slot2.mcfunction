@@ -25,3 +25,13 @@ execute if score @s ag_c2 matches 24 run function augment:augment/grant_aug24
 execute if score @s ag_c2 matches 25 run function augment:augment/grant_aug25
 execute if score @s ag_c2 matches 26 run function augment:augment/grant_aug26
 execute if score @s ag_c2 matches 27 run function augment:augment/grant_aug27
+execute if score @s ag_c2 matches 28 run function augment:augment/grant_aug28
+execute if score @s ag_c2 matches 29 run function augment:augment/grant_aug29
+execute if score @s ag_c2 matches 30 run function augment:augment/grant_aug30
+execute if score @s ag_c2 matches 31 run function augment:augment/grant_aug31
+execute if score @s ag_c2 matches 32 run function augment:augment/grant_aug32
+execute if score @s ag_c2 matches 33 run function augment:augment/grant_aug33
+execute if score @s ag_c2 matches 34 run function augment:augment/grant_aug34
+execute if score @s ag_c2 matches 35 run function augment:augment/grant_aug35
+execute if score @s ag_c2 matches 36 run function augment:augment/grant_aug36
+execute if score @s ag_c2 matches 37 run function augment:augment/grant_aug37

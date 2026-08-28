@@ -3,12 +3,50 @@ execute if score #state ag_math matches 1.. run return fail
 execute unless score #arena_ready ag_math matches 1.. run tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"먼저 /function augment:admin/set_arena 로 경기장을 설정하세요.","color":"red"}]
 execute unless score #arena_ready ag_math matches 1.. run return fail
 execute as @a run function augment:player/reset_for_match
+team add augment_gather
+team modify augment_gather friendlyFire false
+team add augment_dist_1
+team modify augment_dist_1 friendlyFire false
+team modify augment_dist_1 color red
+team add augment_dist_2
+team modify augment_dist_2 friendlyFire false
+team modify augment_dist_2 color gold
+team add augment_dist_3
+team modify augment_dist_3 friendlyFire false
+team modify augment_dist_3 color yellow
+team add augment_dist_4
+team modify augment_dist_4 friendlyFire false
+team modify augment_dist_4 color green
+team add augment_dist_5
+team modify augment_dist_5 friendlyFire false
+team modify augment_dist_5 color aqua
+team add augment_dist_6
+team modify augment_dist_6 friendlyFire false
+team modify augment_dist_6 color blue
+team add augment_dist_7
+team modify augment_dist_7 friendlyFire false
+team modify augment_dist_7 color light_purple
+team add augment_dist_8
+team modify augment_dist_8 friendlyFire false
+team modify augment_dist_8 color dark_purple
+team add augment_dist_9
+team modify augment_dist_9 friendlyFire false
+team modify augment_dist_9 color dark_red
+team add augment_dist_10
+team modify augment_dist_10 friendlyFire false
+team modify augment_dist_10 color dark_aqua
+team add augment_goblin
+team modify augment_goblin friendlyFire true
+team modify augment_goblin color yellow
+team join augment_gather @a[scores={ag_alive=1}]
 scoreboard players set #state ag_math 1
 scoreboard players set #pause ag_math 0
 scoreboard players set #timer ag_math 0
 scoreboard players set #xpcycle ag_math 0
+scoreboard players set #xpamount ag_math 55
+scoreboard players set #bsize ag_math 1000
 scoreboard players set #bnext ag_math 6000
-scoreboard players set #bprog ag_math 30
+scoreboard players set #bprog ag_math 0
 scoreboard players set #bcool ag_math 0
 scoreboard players operation #bstart_x ag_math = #bx ag_math
 scoreboard players operation #bstart_z ag_math = #bz ag_math
@@ -19,8 +57,13 @@ scoreboard players operation #btarget_size ag_math = #bsize ag_math
 function augment:game/interpolate_border
 gamerule minecraft:keep_inventory true
 gamerule minecraft:players_sleeping_percentage 100
-gamemode survival @a
+gamerule minecraft:random_tick_speed 90
 effect clear @a minecraft:slowness
 effect clear @a minecraft:mining_fatigue
 effect clear @a minecraft:weakness
-tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"테스트 경기를 시작했습니다.","color":"green"}]
+function augment:game/send_all_to_arena
+function augment:game/spread_players
+execute as @a[scores={ag_alive=1}] run function augment:shop/give_remote
+execute as @a[scores={ag_alive=1}] run function augment:augment/give_list_remote
+execute as @a[scores={ag_alive=1}] run function augment:augment/give_menu_remote
+tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"경기가 시작되었습니다. 1시간 동안 자원 수집 후 PvP가 활성화됩니다.","color":"green"}]

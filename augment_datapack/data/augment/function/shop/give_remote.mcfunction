@@ -1,0 +1,1 @@
+give @s minecraft:spyglass[minecraft:custom_name={text:"\uC0C1\uC810 \uB9AC\uBAA8\uCEE8",color:"gold",italic:false},minecraft:item_model="minecraft:smithing_table",minecraft:custom_data={augment:{tool:"shop_remote"}}] 1

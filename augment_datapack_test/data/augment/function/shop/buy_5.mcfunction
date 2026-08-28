@@ -1,5 +1,5 @@
-scoreboard players set #price ag_math 10
-execute if score @s ag_catmine matches 3.. run scoreboard players set #price ag_math 7
+scoreboard players set #price ag_math 5
+execute if score @s ag_catmine matches 3.. run scoreboard players set #price ag_math 4
 function augment:shop/charge
 execute if score #paid ag_math matches 1 run give @s ender_pearl
 scoreboard players set @s ag_shopbuy 0

@@ -1,0 +1,1 @@
+give @s minecraft:spyglass[minecraft:custom_name={text:"증강 도감",color:"aqua",italic:false},minecraft:item_model="minecraft:book",minecraft:lore=[{text:"우클릭: 현재 보유 증강 확인",color:"gray",italic:false}],minecraft:custom_data={augment:{tool:"augment_list_remote"}}] 1

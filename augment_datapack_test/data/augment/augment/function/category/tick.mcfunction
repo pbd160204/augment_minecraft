@@ -1,0 +1,2 @@
+function augment:category/recompute_passives
+function augment:category/check_progress

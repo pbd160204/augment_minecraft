@@ -1,13 +1,18 @@
 clear @s
 effect clear @s
 gamemode survival @s
+attribute @s minecraft:max_health base set 20
+attribute @s minecraft:scale base set 1
+effect give @s minecraft:instant_health 1 255 true
+effect give @s minecraft:saturation 1 255 true
 scoreboard players set @s ag_alive 1
 scoreboard players set @s ag_points 0
 scoreboard players set @s ag_lvlband 0
 scoreboard players set @s ag_lvlseen 0
 scoreboard players set @s ag_lvlraw 0
 scoreboard players set @s ag_xpbonus 0
-scoreboard players set @s ag_dseen 0
+scoreboard players operation @s ag_dseen = @s ag_deaths
+scoreboard players set @s ag_ginvuln 0
 scoreboard players set @s ag_c1 0
 scoreboard players set @s ag_c2 0
 scoreboard players set @s ag_c3 0
@@ -24,12 +29,17 @@ scoreboard players set @s ag_anvil 0
 scoreboard players set @s ag_lapis 0
 scoreboard players operation @s ag_fireseen = @s ag_fireuse
 scoreboard players operation @s ag_snowseen = @s ag_snowuse
+scoreboard players operation @s ag_shopseen = @s ag_shopuse
 tag @s remove augment.fireball_armed
 tag @s remove augment.bomb_charge_armed
 tag @s remove augment.bomb_charge_placed
 tag @s remove augment.age25_catalyst_armed
 tag @s remove augment.age30_catalyst_armed
 tag @s remove augment.morello_anvil_armed
+tag @s remove augment.age25_catalyst_offhand_armed
+tag @s remove augment.age30_catalyst_offhand_armed
+tag @s remove augment.morello_anvil_offhand_armed
+tag @s remove augment.farm_catalyst_offhand_armed
 scoreboard players set @s ag_owned 0
 scoreboard players set @s ag_advowned 0
 scoreboard players set @s ag_catsurv 0
@@ -37,6 +47,7 @@ scoreboard players set @s ag_catcomb 0
 scoreboard players set @s ag_catgrow 0
 scoreboard players set @s ag_catwiz 0
 scoreboard players set @s ag_catmine 0
+scoreboard players set @s ag_catquest 0
 scoreboard players set @s ag_bsurv 0
 scoreboard players set @s ag_bcomb 0
 scoreboard players set @s ag_bgrow 0
@@ -50,11 +61,19 @@ scoreboard players set @s ag_am1 0
 scoreboard players set @s ag_am2 0
 scoreboard players set @s ag_am3 0
 scoreboard players set @s ag_shopunlock 0
+scoreboard players set @s ag_farmshop 0
 scoreboard players set @s ag_hpbonus 0
+scoreboard players set @s ag_hpdelta 0
 scoreboard players set @s ag_dmgbonus 0
 scoreboard players operation @s ag_kseen = @s ag_kills
+scoreboard players set @s ag_pseen 0
+scoreboard players operation @s ag_pseen = @s ag_pkill
 scoreboard players operation @s ag_sstone = @s ag_stone
 scoreboard players operation @s ag_sdstone = @s ag_dstone
+scoreboard players operation @s ag_stuff = @s ag_tuff
+scoreboard players operation @s ag_sgranite = @s ag_granite
+scoreboard players operation @s ag_sandesite = @s ag_andesite
+scoreboard players operation @s ag_sdiorite = @s ag_diorite
 scoreboard players operation @s ag_scoal = @s ag_coal
 scoreboard players operation @s ag_sdcoal = @s ag_dcoal
 scoreboard players operation @s ag_sdiam = @s ag_diam
@@ -94,6 +113,38 @@ scoreboard players set @s ag_aug24 0
 scoreboard players set @s ag_aug25 0
 scoreboard players set @s ag_aug26 0
 scoreboard players set @s ag_aug27 0
+scoreboard players set @s ag_aug28 0
+scoreboard players set @s ag_aug29 0
+scoreboard players set @s ag_travx 0
+scoreboard players set @s ag_travz 0
+scoreboard players set @s ag_trav_nw 0
+scoreboard players set @s ag_trav_ne 0
+scoreboard players set @s ag_trav_sw 0
+scoreboard players set @s ag_trav_se 0
+scoreboard players set @s ag_travtotal 0
+scoreboard players set @s ag_travdone 0
+scoreboard players set @s ag_aug30 0
+scoreboard players operation @s ag_jungleseen = @s ag_jungleuse
+scoreboard players set @s ag_jungledone 0
+tag @s remove augment.jungle_strike_armed
+scoreboard players set @s ag_aug31 0
+scoreboard players set @s ag_aug32 0
+tag @s remove augment.golden_goblin
+scoreboard players set @s ag_aug33 0
+scoreboard players set @s ag_aug34 0
+scoreboard players set @s ag_aug35 0
+scoreboard players set @s ag_aug36 0
+scoreboard players set @s ag_aug37 0
+scoreboard players operation @s ag_scaleseen = @s ag_scaleuse
+scoreboard players operation @s ag_azeriseen = @s ag_azeriuse
+scoreboard players set @s ag_escapeused 0
+scoreboard players operation @s ag_cakeseen = @s ag_cakecraft
+scoreboard players set @s ag_cakedone 0
+scoreboard players set @s ag_questdone 0
+scoreboard players set @s ag_aaug8 0
+scoreboard players set @s ag_contractdone 0
+scoreboard players set @s ag_contractclear 0
+scoreboard players set @s ag_potxp 0
 scoreboard players set @s ag_aaug1 0
 scoreboard players set @s ag_aaug2 0
 scoreboard players set @s ag_aaug3 0
@@ -103,4 +154,6 @@ scoreboard players set @s ag_aaug6 0
 scoreboard players set @s ag_aaug7 0
 scoreboard players set @s ag_onceko 0
 scoreboard players set @s ag_onecotime 0
+scoreboard players set @s ag_qdone 0
+scoreboard players set @s ag_disruptor 0
 xp set @s 0 levels

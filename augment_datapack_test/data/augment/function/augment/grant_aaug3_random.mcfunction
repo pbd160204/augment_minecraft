@@ -1,5 +1,3 @@
-scoreboard players add @s ag_advpts 1
-scoreboard players set @s ag_advpick 1
-scoreboard players set @s ag_am1 3
-scoreboard players set @s ag_advopen 1
-function augment:augment/select_am1
+scoreboard players set #aaug_selected ag_math 1
+scoreboard players set #aaug_direct ag_math 1
+function augment:augment/grant_aaug3
