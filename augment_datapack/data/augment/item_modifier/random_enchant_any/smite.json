@@ -1,9 +1,7 @@
-[
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:smite": 5
-    },
-    "add": true
-  }
-]
+{
+    "type":  "minecraft:set_enchantments",
+    "enchantments":  {
+                         "minecraft:smite":  5
+                     },
+    "add":  true
+}

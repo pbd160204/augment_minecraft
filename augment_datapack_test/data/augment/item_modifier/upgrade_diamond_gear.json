@@ -1,12 +1,105 @@
-[
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_helmet"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_helmet"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_chestplate"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_chestplate"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_leggings"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_leggings"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_boots"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_boots"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_sword"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_sword"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_spear"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_spear"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_pickaxe"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_pickaxe"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_axe"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_axe"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_shovel"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_shovel"}},
-  {"function":"minecraft:filtered","item_filter":{"items":"minecraft:diamond_hoe"},"on_pass":{"function":"minecraft:set_item","item":"minecraft:netherite_hoe"}}
-]
+{
+    "type":  "minecraft:sequence",
+    "functions":  [
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_helmet"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_helmet"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_chestplate"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_chestplate"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_leggings"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_leggings"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_boots"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_boots"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_sword"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_sword"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_spear"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_spear"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_pickaxe"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_pickaxe"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_axe"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_axe"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_shovel"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_shovel"
+                                      }
+                      },
+                      {
+                          "type":  "minecraft:filtered",
+                          "item_filter":  {
+                                              "items":  "minecraft:diamond_hoe"
+                                          },
+                          "on_pass":  {
+                                          "type":  "minecraft:set_item",
+                                          "item":  "minecraft:netherite_hoe"
+                                      }
+                      }
+                  ]
+}

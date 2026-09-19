@@ -1,12 +1,10 @@
-[
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:equippable": {
-        "slot": "feet",
-        "swappable": true,
-        "damage_on_hurt": true
-      }
-    }
-  }
-]
+{
+    "type":  "minecraft:set_components",
+    "components":  {
+                       "minecraft:equippable":  {
+                                                    "slot":  "feet",
+                                                    "swappable":  true,
+                                                    "damage_on_hurt":  true
+                                                }
+                   }
+}

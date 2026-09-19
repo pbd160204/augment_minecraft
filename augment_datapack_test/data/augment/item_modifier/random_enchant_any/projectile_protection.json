@@ -1,9 +1,7 @@
-[
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:projectile_protection": 4
-    },
-    "add": true
-  }
-]
+{
+    "type":  "minecraft:set_enchantments",
+    "enchantments":  {
+                         "minecraft:projectile_protection":  4
+                     },
+    "add":  true
+}

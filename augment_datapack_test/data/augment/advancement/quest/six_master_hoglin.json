@@ -1,1 +1,19 @@
-{"criteria":{"breed":{"trigger":"minecraft:bred_animals","conditions":{"child":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:entity_type":"minecraft:hoglin"}}]}}},"rewards":{"function":"augment:quest/six_master_hoglin"}}
+{
+    "criteria":  {
+                     "breed":  {
+                                   "trigger":  "minecraft:bred_animals",
+                                   "conditions":  {
+                                                      "child":  {
+                                                                    "type":  "minecraft:entity_properties",
+                                                                    "entity":  "this",
+                                                                    "predicate":  {
+                                                                                      "minecraft:entity_type":  "minecraft:hoglin"
+                                                                                  }
+                                                                }
+                                                  }
+                               }
+                 },
+    "rewards":  {
+                    "function":  "augment:quest/six_master_hoglin"
+                }
+}

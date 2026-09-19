@@ -1,9 +1,7 @@
-[
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:punch": 2
-    },
-    "add": true
-  }
-]
+{
+    "type":  "minecraft:set_enchantments",
+    "enchantments":  {
+                         "minecraft:punch":  2
+                     },
+    "add":  true
+}

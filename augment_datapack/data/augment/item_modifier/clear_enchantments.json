@@ -1,8 +1,8 @@
-[
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:enchantments": {}
-    }
-  }
-]
+{
+    "type":  "minecraft:set_components",
+    "components":  {
+                       "minecraft:enchantments":  {
+
+                                                  }
+                   }
+}

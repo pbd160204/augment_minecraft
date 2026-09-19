@@ -1,9 +1,7 @@
-[
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:wind_burst": 3
-    },
-    "add": true
-  }
-]
+{
+    "type":  "minecraft:set_enchantments",
+    "enchantments":  {
+                         "minecraft:wind_burst":  3
+                     },
+    "add":  true
+}

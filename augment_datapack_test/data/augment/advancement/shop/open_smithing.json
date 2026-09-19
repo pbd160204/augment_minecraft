@@ -1,24 +1,20 @@
 {
-  "criteria": {
-    "use_smithing_table": {
-      "trigger": "minecraft:default_block_use",
-      "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:smithing_table"
-                ]
-              }
-            }
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {
-    "function": "augment:shop/open_from_advancement"
-  }
+    "criteria":  {
+                     "use_smithing_table":  {
+                                                "trigger":  "minecraft:default_block_use",
+                                                "conditions":  {
+                                                                   "location":  {
+                                                                                    "type":  "minecraft:location_check",
+                                                                                    "predicate":  {
+                                                                                                      "block":  {
+                                                                                                                    "blocks":  "minecraft:smithing_table"
+                                                                                                                }
+                                                                                                  }
+                                                                                }
+                                                               }
+                                            }
+                 },
+    "rewards":  {
+                    "function":  "augment:shop/open_from_advancement"
+                }
 }

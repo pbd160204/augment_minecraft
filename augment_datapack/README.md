@@ -1,6 +1,6 @@
 # Augment Survival PvP Datapack
 
-Minecraft Java Edition `26.2`용 렐름/멀티플레이 야생 PvP 데이터팩입니다. 경기장 안에서 자원을 모으고, 증강을 누적해 최후의 생존자가 되는 방식입니다.
+Minecraft Java Edition `26.3`용 렐름/멀티플레이 야생 PvP 데이터팩입니다. 경기장 안에서 자원을 모으고, 증강을 누적해 최후의 생존자가 되는 방식입니다.
 
 ## 설치와 적용
 

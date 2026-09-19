@@ -1,1 +1,26 @@
-{"criteria":{"breed":{"trigger":"minecraft:bred_animals","conditions":{"parent":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:entity_type":"minecraft:sniffer"}}],"partner":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"minecraft:entity_type":"minecraft:sniffer"}}]}}},"rewards":{"function":"augment:quest/six_master_sniffer"}}
+{
+    "criteria":  {
+                     "breed":  {
+                                   "trigger":  "minecraft:bred_animals",
+                                   "conditions":  {
+                                                      "parent":  {
+                                                                     "type":  "minecraft:entity_properties",
+                                                                     "entity":  "this",
+                                                                     "predicate":  {
+                                                                                       "minecraft:entity_type":  "minecraft:sniffer"
+                                                                                   }
+                                                                 },
+                                                      "partner":  {
+                                                                      "type":  "minecraft:entity_properties",
+                                                                      "entity":  "this",
+                                                                      "predicate":  {
+                                                                                        "minecraft:entity_type":  "minecraft:sniffer"
+                                                                                    }
+                                                                  }
+                                                  }
+                               }
+                 },
+    "rewards":  {
+                    "function":  "augment:quest/six_master_sniffer"
+                }
+}
