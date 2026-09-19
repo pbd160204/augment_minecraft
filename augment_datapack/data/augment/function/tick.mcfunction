@@ -15,10 +15,13 @@ execute if score #pause ag_math matches 1 run effect give @a minecraft:mining_fa
 execute if score #pause ag_math matches 1 run effect give @a minecraft:weakness 2 255 true
 execute if score #pause ag_math matches 1 run return fail
 execute if score #state ag_math matches 0 as @a[name=!pbd160204,gamemode=!adventure] run gamemode adventure @s
-execute if score #state ag_math matches 0 in minecraft:overworld as @a[name=!pbd160204] run tp @s 0 0 0
+execute if score #state ag_math matches 0 run team join augment_lobby @a
+execute if score #state ag_math matches 0 run effect give @a minecraft:saturation 2 0 true
+execute as @a[scores={ag_sixcool=1..}] run scoreboard players remove @s ag_sixcool 1
 execute as @a run function augment:augment/item_use_tick
 execute as @a run function augment:quest/process_smelted_potatoes
 execute as @a run function augment:augment/passive_effects
+execute as @a[scores={ag_tetkai=1..}] run function augment:augment/tick_tetkai
 execute unless score #state ag_math matches 1..2 as @a run function augment:augment/tick
 execute unless score #state ag_math matches 1..2 as @a run function augment:category/tick
 scoreboard players add #synergyui ag_math 1

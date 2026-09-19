@@ -5,3 +5,6 @@ execute if score #tmp ag_math matches 4 run function augment:augment/grant_aaug4
 execute if score #tmp ag_math matches 5 run function augment:augment/grant_aaug5_random
 execute if score #tmp ag_math matches 6 run function augment:augment/grant_aaug6_random
 execute if score #tmp ag_math matches 7 run function augment:augment/grant_aaug7_random
+execute if score #tmp ag_math matches 8 run function augment:augment/grant_aaug8_random
+execute if score #tmp ag_math matches 9 run function augment:augment/grant_aaug9_random
+execute if score #tmp ag_math matches 10 run function augment:augment/grant_aug1_random

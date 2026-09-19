@@ -1,0 +1,2 @@
+give @s minecraft:snowball[minecraft:custom_name={text:"\uC9C4\uC9DC \uD22C\uBA85\uD654",color:"aqua",italic:false},minecraft:item_model="minecraft:potion",minecraft:lore=[{text:"\uC624\uB978\uC190\uC5D0 \uB4E4\uACE0 \uC6B0\uD074\uB9AD",color:"gray",italic:false}],minecraft:custom_data={augment:{tool:"true_invisibility"}}] 1
+execute at @s run kill @e[type=minecraft:snowball,distance=..4,limit=1,sort=nearest]

@@ -1,0 +1,1 @@
+tellraw @s {"text":"[3] \uACE0\uAE09 / \uC0DD\uC874 / \uC62C\uC758 \uBC95\uCE59","color":"yellow","click_event":{"action":"run_command","command":"/trigger ag_advpick set 3"},"hover_event":{"action":"show_text","value":"\uC601\uAD6C\uC801\uC778 \uD654\uC5FC \uC800\uD56D\uACFC \uC800\uD56D I\uC744 \uD68D\uB4DD\uD569\uB2C8\uB2E4.\n\uD074\uB9AD\uD558\uC5EC \uC120\uD0DD"}}

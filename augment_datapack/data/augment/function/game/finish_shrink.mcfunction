@@ -7,3 +7,4 @@ execute store result storage augment:runtime border.x int 1 run scoreboard playe
 execute store result storage augment:runtime border.z int 1 run scoreboard players get #bz ag_math
 execute store result storage augment:runtime border.size int 1 run scoreboard players get #bsize ag_math
 function augment:game/apply_border with storage augment:runtime border
+execute if score #bsize ag_math matches 50 if score #deathmatch ag_math matches 0 run function augment:game/start_deathmatch_countdown

@@ -31,7 +31,14 @@ tag @s remove augment.age25_catalyst_offhand_armed
 tag @s remove augment.age30_catalyst_offhand_armed
 tag @s remove augment.morello_anvil_offhand_armed
 tag @s remove augment.farm_catalyst_offhand_armed
+tag @s remove augment.enchant_reroller_armed
+tag @s remove augment.enchant_reroller_offhand_armed
+tag @s remove augment.tetkai_armed
+tag @s remove augment.tetkai_offhand_armed
+tag @s remove augment.true_invisibility_armed
+tag @s remove augment.true_invisibility_offhand_armed
 scoreboard players set @s ag_owned 0
+scoreboard players set @s ag_tetkai 0
 scoreboard players set @s ag_advowned 0
 scoreboard players set @s ag_catsurv 0
 scoreboard players set @s ag_catcomb 0
@@ -77,6 +84,13 @@ scoreboard players set @s ag_aug19 0
 scoreboard players set @s ag_aug20 0
 scoreboard players set @s ag_aug21 0
 tag @s remove augment.golden_goblin
+tag @s remove augment.scramblecraft
+tag @s remove augment.scramble_map_1
+tag @s remove augment.scramble_map_2
+tag @s remove augment.scramble_map_3
+tag @s remove augment.scramble_map_4
+tag @s remove augment.scramble_map_5
+tag @s remove augment.scramble_map_6
 scoreboard players set @s ag_aug22 0
 scoreboard players set @s ag_aug23 0
 scoreboard players set @s ag_aug24 0
@@ -93,6 +107,12 @@ scoreboard players set @s ag_aug34 0
 scoreboard players set @s ag_aug35 0
 scoreboard players set @s ag_aug36 0
 scoreboard players set @s ag_aug37 0
+scoreboard players set @s ag_aug38 0
+scoreboard players set @s ag_aug39 0
+scoreboard players set @s ag_aug40 0
+scoreboard players set @s ag_aug41 0
+function augment:quest/six_master_reset
+tag @s remove augment.six_master_armed
 scoreboard players set @s ag_potxp 0
 scoreboard players set @s ag_hpdelta 0
 scoreboard players set @s ag_aaug1 0
@@ -103,6 +123,7 @@ scoreboard players set @s ag_aaug5 0
 scoreboard players set @s ag_aaug6 0
 scoreboard players set @s ag_aaug7 0
 scoreboard players set @s ag_aaug8 0
+scoreboard players set @s ag_aaug9 0
 scoreboard players set @s ag_onceko 0
 scoreboard players set @s ag_onecotime 0
 scoreboard players set @s ag_pseen 0

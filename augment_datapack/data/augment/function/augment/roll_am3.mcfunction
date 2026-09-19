@@ -1,4 +1,4 @@
-execute store result score #tmp ag_math run random value 1..8
+execute store result score #tmp ag_math run random value 1..9
 scoreboard players operation @s ag_am3 = #tmp ag_math
 execute if score @s ag_am3 = @s ag_am1 run function augment:augment/roll_am3
 execute if score @s ag_am3 = @s ag_am2 run function augment:augment/roll_am3
@@ -10,3 +10,4 @@ execute if score @s ag_am3 matches 5 if score @s ag_aaug5 matches 1.. run functi
 execute if score @s ag_am3 matches 6 if score @s ag_aaug6 matches 1.. run function augment:augment/roll_am3
 execute if score @s ag_am3 matches 7 if score @s ag_aaug7 matches 1.. run function augment:augment/roll_am3
 execute if score @s ag_am3 matches 8 if score @s ag_aaug8 matches 1.. run function augment:augment/roll_am3
+execute if score @s ag_am3 matches 9 if score @s ag_aaug9 matches 1.. run function augment:augment/roll_am3

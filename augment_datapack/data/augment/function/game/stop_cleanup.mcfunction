@@ -8,7 +8,10 @@ scoreboard players set #xpcycle ag_math 0
 scoreboard players set #bnext ag_math 6000
 scoreboard players set #bprog ag_math 0
 scoreboard players set #bcool ag_math 0
+scoreboard players set #deathmatch ag_math 0
+scoreboard players set #dmnext ag_math 0
 bossbar set augment:gather_time visible false
+bossbar set augment:supply_time visible false
 team leave @a
 effect clear @a minecraft:slowness
 effect clear @a minecraft:mining_fatigue
@@ -17,6 +20,7 @@ execute in minecraft:overworld run worldborder center 0 0
 execute in minecraft:overworld run worldborder set 59999968
 kill @e[type=minecraft:creeper,tag=augment.bomb_charge_creeper]
 kill @e[type=minecraft:wolf,tag=augment.jungle_pet]
+function augment:game/cleanup_supplies
 execute as @a run function augment:player/reset_after_match
 clear @a
 effect clear @a

@@ -1,1 +1,1 @@
-execute as @a run function augment:help
+execute as @a run function augment:help_v3

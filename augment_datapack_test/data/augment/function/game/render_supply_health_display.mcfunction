@@ -1,0 +1,1 @@
+$data modify entity @e[type=minecraft:text_display,tag=augment.supply_health_display,distance=..5,limit=1,sort=nearest] text set value {text:"\uBCF4\uAE09 \uC6CC\uB4E0 \uCCB4\uB825: $(value) / 500",color:"red",bold:true}

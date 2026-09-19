@@ -1,4 +1,4 @@
-execute store result score #tmp ag_math run random value 1..7
+execute store result score #tmp ag_math run random value 1..8
 execute if score #tmp ag_math matches 1 if score @s ag_aaug1 matches ..0 run function augment:augment/grant_aaug1_random
 execute if score #tmp ag_math matches 1 if score @s ag_aaug1 matches 1.. if score #aaug_selected ag_math matches ..0 run function augment:augment/grant_random_advanced_wizard_other
 execute if score #tmp ag_math matches 2 if score @s ag_aaug2 matches ..0 run function augment:augment/grant_aaug2_random
@@ -13,3 +13,5 @@ execute if score #tmp ag_math matches 6 if score @s ag_aaug7 matches ..0 run fun
 execute if score #tmp ag_math matches 6 if score @s ag_aaug7 matches 1.. if score #aaug_selected ag_math matches ..0 run function augment:augment/grant_random_advanced_wizard_other
 execute if score #tmp ag_math matches 7 if score @s ag_aaug8 matches ..0 run function augment:augment/grant_aaug8_random
 execute if score #tmp ag_math matches 7 if score @s ag_aaug8 matches 1.. if score #aaug_selected ag_math matches ..0 run function augment:augment/grant_random_advanced_wizard_other
+execute if score #tmp ag_math matches 8 if score @s ag_aaug9 matches ..0 run function augment:augment/grant_aaug9_random
+execute if score #tmp ag_math matches 8 if score @s ag_aaug9 matches 1.. if score #aaug_selected ag_math matches ..0 run function augment:augment/grant_random_advanced_wizard_other

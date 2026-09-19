@@ -1,0 +1,1 @@
+function augment:quest/six_master_place_south

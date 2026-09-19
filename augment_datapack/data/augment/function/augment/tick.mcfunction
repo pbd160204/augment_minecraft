@@ -2,11 +2,12 @@ execute if score @s ag_aug1 matches 1.. run effect give @s fire_resistance 2 0 t
 execute if score @s ag_aug1 matches 1.. run effect give @s resistance 2 0 true
 execute if score @s ag_aug2 matches 1.. run effect give @s jump_boost 2 1 true
 execute if score @s ag_aug3 matches 1.. run effect give @s minecraft:speed 2 0 true
-execute if score @s ag_aug3 matches 1.. if score @s ag_contractdone matches 0 run effect give @s glowing 2 0 true
+execute if score @s ag_aug3 matches 1.. if score @s ag_contractdone matches 0 unless items entity @s weapon.offhand minecraft:phantom_membrane[minecraft:custom_data~{augment:{supply_item:"glow_shield"}}] run effect give @s glowing 2 0 true
 execute if score @s ag_aug5 matches 1.. run effect give @s minecraft:weaving 5 0 true
 execute if score #state ag_math matches 1 if score @s ag_aaug2 matches 1.. if score @s ag_contractdone matches 0 run effect give @s hunger 2 0 true
 execute if score @s ag_aug25 matches 1.. run effect give @s haste 2 1 true
-execute if score #state ag_math matches 1 if score @s ag_aug27 matches 1.. store result score #tmp ag_math run data get entity @s Pos[1] 1
-execute if score #state ag_math matches 1 if score @s ag_aug27 matches 1.. if score #tmp ag_math matches ..0 run effect give @s saturation 2 0 true
+execute if score #state ag_math matches 1 if score @s ag_aaug9 matches 1.. store result score #tmp ag_math run data get entity @s Pos[1] 1
+execute if score #state ag_math matches 1 if score @s ag_aaug9 matches 1.. if score #tmp ag_math matches ..0 run effect give @s saturation 2 0 true
+execute if score #state ag_math matches 1 if score @s ag_aaug9 matches 1.. if score #tmp ag_math matches ..0 run effect give @s haste 2 0 true
 function augment:player/apply_attributes
 function augment:augment/process_stat_bonuses

@@ -5,7 +5,7 @@ execute if score @s ag_aug6 matches 1.. run scoreboard players operation #xpbonu
 execute if score @s ag_aug6 matches 1.. run execute store result storage augment:runtime xp.amount int 1 run scoreboard players get #xpbonus ag_math
 execute if score @s ag_aug6 matches 1.. run function augment:augment/give_xp_points with storage augment:runtime xp
 execute if score @s ag_aaug2 matches 1.. run scoreboard players operation #xpbonus ag_math = #xpamount ag_math
-execute if score @s ag_aaug2 matches 1.. run scoreboard players operation #xpbonus ag_math *= #sixty ag_math
+execute if score @s ag_aaug2 matches 1.. run scoreboard players operation #xpbonus ag_math *= #fortyfive ag_math
 execute if score @s ag_aaug2 matches 1.. run scoreboard players operation #xpbonus ag_math /= #hundred ag_math
 execute if score @s ag_aaug2 matches 1.. run execute store result storage augment:runtime xp.amount int 1 run scoreboard players get #xpbonus ag_math
 execute if score @s ag_aaug2 matches 1.. run function augment:augment/give_xp_points with storage augment:runtime xp

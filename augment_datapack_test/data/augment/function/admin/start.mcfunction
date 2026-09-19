@@ -2,6 +2,8 @@ execute unless score #state ag_math matches 0 run tellraw @s [{"text":"[Augment]
 execute if score #state ag_math matches 1.. run return fail
 execute unless score #arena_ready ag_math matches 1.. run tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"먼저 /function augment:admin/set_arena 로 경기장을 설정하세요.","color":"red"}]
 execute unless score #arena_ready ag_math matches 1.. run return fail
+execute in minecraft:overworld run time set 0
+function augment:game/cleanup_supplies
 execute as @a run function augment:player/reset_for_match
 team add augment_gather
 team modify augment_gather friendlyFire false
@@ -44,10 +46,14 @@ scoreboard players set #pause ag_math 0
 scoreboard players set #timer ag_math 0
 scoreboard players set #xpcycle ag_math 0
 scoreboard players set #xpamount ag_math 55
+execute store result score #scramble_map ag_math run random value 1..6
 scoreboard players set #bsize ag_math 1000
 scoreboard players set #bnext ag_math 6000
 scoreboard players set #bprog ag_math 0
 scoreboard players set #bcool ag_math 0
+scoreboard players set #deathmatch ag_math 0
+scoreboard players set #dmnext ag_math 0
+bossbar set augment:supply_time visible false
 scoreboard players operation #bstart_x ag_math = #bx ag_math
 scoreboard players operation #bstart_z ag_math = #bz ag_math
 scoreboard players operation #btarget_x ag_math = #bx ag_math
@@ -63,7 +69,11 @@ effect clear @a minecraft:mining_fatigue
 effect clear @a minecraft:weakness
 function augment:game/send_all_to_arena
 function augment:game/spread_players
+gamerule minecraft:immediate_respawn true
+kill @a[scores={ag_alive=1}]
+execute as @a[scores={ag_alive=1}] run scoreboard players operation @s ag_dseen = @s ag_deaths
+gamerule minecraft:immediate_respawn false
 execute as @a[scores={ag_alive=1}] run function augment:shop/give_remote
 execute as @a[scores={ag_alive=1}] run function augment:augment/give_list_remote
 execute as @a[scores={ag_alive=1}] run function augment:augment/give_menu_remote
-tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"경기가 시작되었습니다. 1시간 동안 자원 수집 후 PvP가 활성화됩니다.","color":"green"}]
+tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"경기가 시작되었습니다. 45분 동안 자원 수집 후 PvP가 활성화됩니다.","color":"green"}]

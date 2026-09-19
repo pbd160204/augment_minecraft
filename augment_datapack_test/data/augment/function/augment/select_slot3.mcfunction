@@ -1,4 +1,4 @@
-execute if score @s ag_c3 matches 1 run function augment:augment/grant_aug1
+execute if score @s ag_c3 matches 1 run function augment:augment/open_menu_v2
 execute if score @s ag_c3 matches 2 run function augment:augment/grant_aug2
 execute if score @s ag_c3 matches 3 run function augment:augment/grant_aug3
 execute if score @s ag_c3 matches 4 run function augment:augment/grant_aug4
@@ -35,3 +35,7 @@ execute if score @s ag_c3 matches 34 run function augment:augment/grant_aug34
 execute if score @s ag_c3 matches 35 run function augment:augment/grant_aug35
 execute if score @s ag_c3 matches 36 run function augment:augment/grant_aug36
 execute if score @s ag_c3 matches 37 run function augment:augment/grant_aug37
+execute if score @s ag_c3 matches 38 run function augment:augment/grant_aug38
+execute if score @s ag_c3 matches 39 run function augment:augment/grant_aug39
+execute if score @s ag_c3 matches 40 run function augment:augment/grant_aug40
+execute if score @s ag_c3 matches 41 run function augment:augment/grant_aug41

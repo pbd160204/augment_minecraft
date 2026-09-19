@@ -1,0 +1,241 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "\uBC1C\uAD11 \uCC28\uD3D0\uB9C9",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "\uC67C\uC190\uC5D0 \uB4E4\uACE0 \uC788\uC73C\uBA74 \uC99D\uAC15 \uBC1C\uAD11 \uD6A8\uACFC\uC758 \uAC31\uC2E0\uC744 \uCC28\uB2E8\uD569\uB2C8\uB2E4.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "glow_shield"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "\uAEBC\uC838!",
+                  "color": "red",
+                  "italic": false
+                },
+                "minecraft:enchantments": {
+                  "minecraft:knockback": 15
+                },
+                "minecraft:damage": 56,
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "get_lost"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "\uC778\uCC48\uD2B8 \uB9AC\uB864\uB7EC",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:item_model": "minecraft:compass",
+                "minecraft:lore": [
+                  {
+                    "text": "\uC67C\uC190\uC5D0 \uB300\uC0C1 \uC544\uC774\uD15C\uC744 \uB4E4\uACE0 \uC6B0\uD074\uB9AD",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "enchant_reroller",
+                    "tool": "enchant_reroller"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "\uD14C\uC2A4\uCE74\uC774",
+                  "color": "gray",
+                  "italic": false
+                },
+                "minecraft:item_model": "minecraft:iron_ingot",
+                "minecraft:lore": [
+                  {
+                    "text": "10\uCD08\uAC04 \uAD6C\uC18D 255\uC640 \uC800\uD56D 255\uB97C \uC5BB\uC2B5\uB2C8\uB2E4.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "tetkai",
+                    "tool": "tetkai"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "\uC9C4\uC9DC \uD22C\uBA85\uD654",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:item_model": "minecraft:potion",
+                "minecraft:lore": [
+                  {
+                    "text": "\uD749\uAC11\u00B7\uBC14\uC9C0\u00B7\uC2E0\uBC1C\uC744 \uC228\uAE30\uACE0 1\uBD84\uAC04 \uD22C\uBA85\uD654\uB97C \uC5BB\uC2B5\uB2C8\uB2E4. \uD22C\uAD6C\uB294 \uBCF4\uC785\uB2C8\uB2E4.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "true_invisibility",
+                    "tool": "true_invisibility"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "\uD30C\uC0C1\uD48D \uD654\uC0B4",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "\uC801\uC911 \uC2DC 9\uC885\uC758 \uB514\uBC84\uD504\uB97C \uC801\uC6A9\uD569\uB2C8\uB2E4.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "\uD68C\uC218\uD560 \uC218 \uC5C6\uC73C\uBA70 \uBB34\uD55C\uACFC \uC0C1\uD638\uC791\uC6A9\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {"id": "minecraft:blindness", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:darkness", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:nausea", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:glowing", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:weakness", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:hunger", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:poison", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:levitation", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:slowness", "amplifier": 1, "duration": 1120}
+                  ]
+                },
+                "minecraft:intangible_projectile": {},
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "tetanus_arrow"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

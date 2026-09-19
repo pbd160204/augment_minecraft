@@ -1,0 +1,2 @@
+give @s minecraft:snowball[minecraft:custom_name={text:"\uC778\uCC48\uD2B8 \uB9AC\uB864\uB7EC",color:"aqua",italic:false},minecraft:item_model="minecraft:compass",minecraft:lore=[{text:"\uC67C\uC190\uC5D0 \uB300\uC0C1 \uC544\uC774\uD15C\uC744 \uB4E4\uACE0 \uC6B0\uD074\uB9AD",color:"gray",italic:false}],minecraft:custom_data={augment:{tool:"enchant_reroller"}}] 1
+execute at @s run kill @e[type=minecraft:snowball,distance=..4,limit=1,sort=nearest]

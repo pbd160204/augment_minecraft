@@ -17,6 +17,6 @@ attribute @s minecraft:movement_efficiency base set 0
 execute unless score @s ag_aug2 matches 1.. run attribute @s minecraft:fall_damage_multiplier base set 1
 execute if score @s ag_aug2 matches 1.. run attribute @s minecraft:fall_damage_multiplier base set 0
 execute unless score @s ag_aug33 matches 1.. unless score @s ag_aug34 matches 1.. run attribute @s minecraft:scale base set 1
-execute if score @s ag_aug33 matches 1.. unless score @s ag_aug34 matches 1.. run attribute @s minecraft:scale base set 0.55
+execute if score @s ag_aug33 matches 1.. unless score @s ag_aug34 matches 1.. run attribute @s minecraft:scale base set 0.65
 execute unless score @s ag_aug33 matches 1.. if score @s ag_aug34 matches 1.. run attribute @s minecraft:scale base set 1.3
-execute if score @s ag_aug33 matches 1.. if score @s ag_aug34 matches 1.. run attribute @s minecraft:scale base set 0.715
+execute if score @s ag_aug33 matches 1.. if score @s ag_aug34 matches 1.. run attribute @s minecraft:scale base set 0.845

@@ -1,5 +1,4 @@
 scoreboard players set @s ag_owned 0
-execute if score @s ag_aug1 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug2 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug3 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug4 matches 1.. run scoreboard players add @s ag_owned 1
@@ -36,3 +35,7 @@ execute if score @s ag_aug34 matches 1.. run scoreboard players add @s ag_owned 
 execute if score @s ag_aug35 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug36 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug37 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug38 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug39 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug40 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug41 matches 1.. run scoreboard players add @s ag_owned 1

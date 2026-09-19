@@ -1,0 +1,39 @@
+scoreboard players set @s ag_normalleft 0
+execute if score @s ag_aug2 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug3 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug4 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug5 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug6 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug7 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug8 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug9 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug10 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug11 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug12 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug13 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug14 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug16 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug17 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug18 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug20 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug21 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug22 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug23 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug24 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug25 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug26 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug27 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug32 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug33 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug34 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug35 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug36 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug37 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug38 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug39 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug40 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..24 if score @s ag_aug15 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..24 if score @s ag_aug29 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..24 if score @s ag_aug30 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..24 if score @s ag_aug31 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..24 if score @s ag_aug41 matches ..0 run scoreboard players add @s ag_normalleft 1

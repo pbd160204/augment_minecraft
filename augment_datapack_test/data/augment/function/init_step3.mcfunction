@@ -14,6 +14,8 @@ scoreboard players set #bstart_z ag_math 0
 scoreboard players set #btarget_z ag_math 0
 scoreboard players set #bprog ag_math 0
 scoreboard players set #bcool ag_math 0
+scoreboard players set #deathmatch ag_math 0
+scoreboard players set #dmnext ag_math 0
 scoreboard players set #arena_ready ag_math 0
 scoreboard players set #hour ag_math 54000
 scoreboard players set #xpperiod ag_math 3600
@@ -28,3 +30,4 @@ scoreboard players set #xpmult ag_math 115
 scoreboard players set #hundred ag_math 100
 scoreboard players set #two ag_math 2
 scoreboard players set #sixty ag_math 60
+scoreboard players set #fortyfive ag_math 45

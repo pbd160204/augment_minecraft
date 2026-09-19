@@ -1,2 +1,2 @@
 scoreboard players set @s ag_help 0
-function augment:help
+function augment:help_v3
