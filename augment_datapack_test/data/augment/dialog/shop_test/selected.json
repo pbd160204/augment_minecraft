@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:notice",
+  "title": {"text": "테스트 버튼 선택", "color": "yellow"},
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"text": "버튼 입력이 다이얼로그에서 처리되었습니다. 테스트 상점은 실제 아이템을 지급하거나 재화를 차감하지 않습니다.", "color": "white"},
+      "width": 300
+    }
+  ],
+  "action": {
+    "label": "상점 첫 화면으로 돌아가기",
+    "action": {"type": "show_dialog", "dialog": "augment:shop_test/home"}
+  },
+  "pause": false,
+  "after_action": "none",
+  "can_close_with_escape": true
+}

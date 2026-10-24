@@ -1,0 +1,2 @@
+execute if score @s ag_fishfake2 matches 1 run tellraw @s {"text":"[2] 퀘스트 / 질량 결손","color":"white","click_event":{"action":"run_command","command":"/trigger ag_pick set 2"},"hover_event":{"action":"show_text","value":"<낚시> 낚시 자격증을 획득해 낚시꾼으로 전직하세요.\n클릭하여 선택"}}
+execute if score @s ag_fishfake2 matches 2.. run tellraw @s {"text":"[2] 성장 / 자동사냥","color":"white","click_event":{"action":"run_command","command":"/trigger ag_pick set 2"},"hover_event":{"action":"show_text","value":"<낚시> 낚시 자격증을 획득해 낚시꾼으로 전직하세요.\n클릭하여 선택"}}

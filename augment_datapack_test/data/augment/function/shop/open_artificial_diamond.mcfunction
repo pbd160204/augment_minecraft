@@ -1,0 +1,2 @@
+tellraw @s [{"text":"[33] \uC778\uACF5 \uB2E4\uC774\uC544\uBAAC\uB4DC 1\uAC1C - \uC2EC\uCE35\uC554 \uC870\uC57D\uB3CC 64","color":"aqua","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 33"}}]
+tellraw @s [{"text":"[34] \uC778\uACF5 \uB2E4\uC774\uC544\uBAAC\uB4DC 1\uAC1C - \uC870\uC57D\uB3CC 128","color":"aqua","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 34"}}]

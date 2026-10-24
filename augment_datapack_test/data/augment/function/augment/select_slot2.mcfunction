@@ -39,3 +39,5 @@ execute if score @s ag_c2 matches 38 run function augment:augment/grant_aug38
 execute if score @s ag_c2 matches 39 run function augment:augment/grant_aug39
 execute if score @s ag_c2 matches 40 run function augment:augment/grant_aug40
 execute if score @s ag_c2 matches 41 run function augment:augment/grant_aug41
+execute if score @s ag_c2 matches 42 run function augment:augment/grant_aug42
+execute if score @s ag_c2 matches 43 run function augment:augment/grant_aug43

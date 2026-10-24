@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:diamond",
+    "R": "minecraft:redstone_block",
+    "L": "minecraft:book"
+  },
+  "pattern": ["DRD", "RLR", "DRD"],
+  "result": {
+    "id": "minecraft:snowball",
+    "components": {
+      "minecraft:custom_name": {"text":"\uB9C8\uBC95 \uBD80\uC5EC\uAD8C","color":"light_purple","italic":false},
+      "minecraft:item_model": "minecraft:enchanting_table",
+      "minecraft:lore": [
+        {"text":"\uC624\uB978\uC190\uC5D0 \uB4E4\uACE0 \uC6B0\uD074\uB9AD","color":"gray","italic":false},
+        {"text":"\uC67C\uC190 \uC544\uC774\uD15C\uC5D0 30\uB808\uBCA8 \uC778\uCC48\uD2B8 \uBD80\uC5EC","color":"aqua","italic":false},
+        {"text":"\uC774\uBBF8 \uC778\uCC48\uD2B8\uB41C \uC544\uC774\uD15C\uC740 \uC0AC\uC6A9 \uBD88\uAC00","color":"red","italic":false}
+      ],
+      "minecraft:custom_data": {"augment":{"tool":"enchant_ticket"}}
+    }
+  }
+}

@@ -7,4 +7,5 @@ execute if score @s ag_menuopen matches 1.. run scoreboard players set @s ag_men
 execute if score @s ag_menuopen matches 1.. run scoreboard players set @s ag_c1 0
 execute if score @s ag_menuopen matches 1.. run scoreboard players set @s ag_c2 0
 execute if score @s ag_menuopen matches 1.. run scoreboard players set @s ag_c3 0
+execute if score @s ag_menuopen matches 1.. run scoreboard players set @s ag_c4 0
 function augment:augment/generate_menu_v2

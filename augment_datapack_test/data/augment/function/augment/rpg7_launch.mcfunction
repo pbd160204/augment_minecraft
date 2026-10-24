@@ -1,0 +1,26 @@
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^0 run summon minecraft:marker ~ ~ ~ {Tags:["augment.rpg7_origin"]}
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^1 run summon minecraft:marker ~ ~ ~ {Tags:["augment.rpg7_target"]}
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^0 store result score @s ag_rpgox run data get entity @e[type=minecraft:marker,tag=augment.rpg7_origin,distance=..0.2,limit=1,sort=nearest] Pos[0] 64
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^0 store result score @s ag_rpgoy run data get entity @e[type=minecraft:marker,tag=augment.rpg7_origin,distance=..0.2,limit=1,sort=nearest] Pos[1] 64
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^0 store result score @s ag_rpgoz run data get entity @e[type=minecraft:marker,tag=augment.rpg7_origin,distance=..0.2,limit=1,sort=nearest] Pos[2] 64
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result score @s ag_rpgtx run data get entity @e[type=minecraft:marker,tag=augment.rpg7_target,distance=..0.2,limit=1,sort=nearest] Pos[0] 64
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result score @s ag_rpgty run data get entity @e[type=minecraft:marker,tag=augment.rpg7_target,distance=..0.2,limit=1,sort=nearest] Pos[1] 64
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result score @s ag_rpgtz run data get entity @e[type=minecraft:marker,tag=augment.rpg7_target,distance=..0.2,limit=1,sort=nearest] Pos[2] 64
+scoreboard players operation @s ag_rpgdx = @s ag_rpgtx
+scoreboard players operation @s ag_rpgdx -= @s ag_rpgox
+scoreboard players operation @s ag_rpgdy = @s ag_rpgty
+scoreboard players operation @s ag_rpgdy -= @s ag_rpgoy
+scoreboard players operation @s ag_rpgdz = @s ag_rpgtz
+scoreboard players operation @s ag_rpgdz -= @s ag_rpgoz
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"rpg7"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 run summon minecraft:splash_potion ~ ~ ~ {NoGravity:1b,Item:{id:"minecraft:splash_potion",count:1},Tags:["augment.rpg7_pending"]}
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"lower_wand"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 run summon minecraft:splash_potion ~ ~ ~ {Item:{id:"minecraft:splash_potion",count:1},Tags:["augment.rpg7_pending"]}
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^1 run data modify entity @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] Item set from storage augment:runtime rpg.item
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"rpg7"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result entity @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] Motion[0] double 0.0234375 run scoreboard players get @s ag_rpgdx
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"rpg7"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result entity @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] Motion[1] double 0.0234375 run scoreboard players get @s ag_rpgdy
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"rpg7"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result entity @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] Motion[2] double 0.0234375 run scoreboard players get @s ag_rpgdz
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"lower_wand"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result entity @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] Motion[0] double 0.015625 run scoreboard players get @s ag_rpgdx
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"lower_wand"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result entity @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] Motion[1] double 0.015625 run scoreboard players get @s ag_rpgdy
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"lower_wand"}}] at @s rotated as @s anchored eyes positioned ^ ^ ^1 store result entity @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] Motion[2] double 0.015625 run scoreboard players get @s ag_rpgdz
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^1 run tag @e[type=minecraft:splash_potion,tag=augment.rpg7_pending,distance=..0.25,limit=1,sort=nearest] remove augment.rpg7_pending
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^0 run kill @e[type=minecraft:marker,tag=augment.rpg7_origin,distance=..0.2,limit=1,sort=nearest]
+execute at @s rotated as @s anchored eyes positioned ^ ^ ^1 run kill @e[type=minecraft:marker,tag=augment.rpg7_target,distance=..0.2,limit=1,sort=nearest]

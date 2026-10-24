@@ -1,4 +1,5 @@
 tellraw @s [{"text":"[김승언] 특수 상점 - 모든 품목은 비료로 구매합니다.","color":"green"}]
+execute if score @s ag_aug40 matches 1.. run function augment:shop/open_artificial_diamond
 tellraw @s [{"text":"[1] 황금 당근 2개 - 비료 1","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 1"}}]
 tellraw @s [{"text":"[2] 거미줄 1개 - 비료 1","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 2"}}]
 tellraw @s [{"text":"[5] 엔더 진주 1개 - 비료 5","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 5"}}]

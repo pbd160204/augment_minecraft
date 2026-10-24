@@ -20,4 +20,6 @@ clear @s minecraft:gunpowder 1
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"jungle_strike"}}] 1
 scoreboard players set @s ag_jungledone 1
 function augment:quest/summon_jungle_pet
+give @s minecraft:armadillo_scute 64
 tellraw @s [{"text":"[퀘스트] ","color":"gold"},{"text":"정글러 완료! 정글펫을 소환했습니다.","color":"green"}]
+tellraw @s [{"text":"[정글러] ","color":"green"},{"text":"인갑으로 늑대 갑옷을 수리하세요!","color":"yellow"}]

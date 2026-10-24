@@ -13,5 +13,11 @@ execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run 
 execute if score #valid ag_math matches 1 store result score #tmp ag_math run clear @s minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"efficiency"}}] 0
 execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run scoreboard players set #book ag_math 1
 execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run function augment:augment/apply_free_anvil_efficiency
+execute if score #valid ag_math matches 1 store result score #tmp ag_math run clear @s minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"fortune"}}] 0
+execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run scoreboard players set #book ag_math 1
+execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run function augment:augment/apply_free_anvil_fortune
+execute if score #valid ag_math matches 1 store result score #tmp ag_math run clear @s minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"power"}}] 0
+execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run scoreboard players set #book ag_math 1
+execute if score #valid ag_math matches 1 if score #tmp ag_math matches 1.. run function augment:augment/apply_free_anvil_power
 execute if score #valid ag_math matches 1 if score #book ag_math matches 0 run tellraw @s [{"text":"[Augment] 모렐로노미콘으로 얻은 강화 책이 인벤토리에 없습니다.","color":"red"}]
 function augment:augment/refill_morello_anvil

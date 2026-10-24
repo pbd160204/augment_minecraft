@@ -32,8 +32,10 @@ execute if score @s ag_aug37 matches ..0 run scoreboard players add @s ag_normal
 execute if score @s ag_aug38 matches ..0 run scoreboard players add @s ag_normalleft 1
 execute if score @s ag_aug39 matches ..0 run scoreboard players add @s ag_normalleft 1
 execute if score @s ag_aug40 matches ..0 run scoreboard players add @s ag_normalleft 1
-execute if score @s ag_lvlraw matches ..24 if score @s ag_aug15 matches ..0 run scoreboard players add @s ag_normalleft 1
-execute if score @s ag_lvlraw matches ..24 if score @s ag_aug29 matches ..0 run scoreboard players add @s ag_normalleft 1
-execute if score @s ag_lvlraw matches ..24 if score @s ag_aug30 matches ..0 run scoreboard players add @s ag_normalleft 1
-execute if score @s ag_lvlraw matches ..24 if score @s ag_aug31 matches ..0 run scoreboard players add @s ag_normalleft 1
-execute if score @s ag_lvlraw matches ..24 if score @s ag_aug41 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug43 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..30 if score @s ag_aug15 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..30 if score @s ag_aug29 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..30 if score @s ag_aug30 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..30 if score @s ag_aug31 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..30 if score @s ag_aug41 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_lvlraw matches ..30 if score @s ag_aug42 matches ..0 run scoreboard players add @s ag_normalleft 1

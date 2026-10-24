@@ -1,0 +1,443 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 투구",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_helmet_armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_helmet_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_helmet"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 흉갑",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_chestplate_armor",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_chestplate_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_chestplate"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 바지",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_leggings_armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_leggings_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_leggings"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 신발",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_boots_armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_boots_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_boots"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "augment:fishing/netherite_armor",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "전설의 고등어",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "네더라이트 검과 동일한 공격력·공격속도",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "augment:legendary_mackerel_damage",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "augment:legendary_mackerel_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "legendary_mackerel"
+                  }
+                },
+                "minecraft:item_model": "minecraft:tropical_fish"
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "인챈트 리롤러",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:item_model": "minecraft:compass",
+                "minecraft:lore": [
+                  {
+                    "text": "왼손에 대상 아이템을 들고 우클릭",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "enchant_reroller",
+                    "tool": "enchant_reroller"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 8,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 8,
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "겉날개 조각",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "4개를 2×2로 조합하면 겉날개를 만듭니다.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "elytra_fragment"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "파상풍 화살",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 1120
+                    },
+                    {
+                      "id": "minecraft:darkness",
+                      "amplifier": 0,
+                      "duration": 1120
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 1120
+                    },
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 0,
+                      "duration": 1120
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 1120
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 1120
+                    },
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 0,
+                      "duration": 1120
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 0,
+                      "duration": 480
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 1,
+                      "duration": 1120
+                    }
+                  ]
+                },
+                "minecraft:intangible_projectile": {},
+                "minecraft:custom_data": {
+                  "augment": {
+                    "supply_item": "tetanus_arrow"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "폭발 장약",
+                  "color": "red",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "고체 블록 면에 설치하면 0.3초 후 폭발",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "bomb_charge": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_rod",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heavy_core",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

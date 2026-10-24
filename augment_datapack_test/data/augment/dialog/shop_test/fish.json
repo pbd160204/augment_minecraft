@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "물고기 상점", "color": "aqua"},
+  "body": [
+    {"type": "minecraft:plain_message", "contents": {"text": "물고기 상점의 품목·아이콘·가격 표시 테스트입니다. 구매는 처리되지 않습니다.", "color": "gray"}, "width": 300},
+    {"type": "minecraft:item", "item": {"id": "minecraft:chainmail_helmet", "count": 1}, "description": {"contents": "물고기 투구 · 익히지 않은 대구 35개", "width": 220}},
+    {"type": "minecraft:item", "item": {"id": "minecraft:chainmail_chestplate", "count": 1}, "description": {"contents": "물고기 흉갑 · 익히지 않은 대구 56개", "width": 220}},
+    {"type": "minecraft:item", "item": {"id": "minecraft:tropical_fish", "count": 1}, "description": {"contents": "전설의 고등어 · 익히지 않은 연어 45개", "width": 220}}
+  ],
+  "actions": [
+    {"label": "구매 테스트: 물고기 투구", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "구매 테스트: 물고기 흉갑", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "구매 테스트: 전설의 고등어", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "상점 첫 화면", "action": {"type": "show_dialog", "dialog": "augment:shop_test/home"}}
+  ],
+  "columns": 1,
+  "pause": false,
+  "after_action": "none",
+  "can_close_with_escape": true
+}

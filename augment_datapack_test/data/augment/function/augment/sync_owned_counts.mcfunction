@@ -39,3 +39,5 @@ execute if score @s ag_aug38 matches 1.. run scoreboard players add @s ag_owned 
 execute if score @s ag_aug39 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug40 matches 1.. run scoreboard players add @s ag_owned 1
 execute if score @s ag_aug41 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug42 matches 1.. run scoreboard players add @s ag_owned 1
+execute if score @s ag_aug43 matches 1.. run scoreboard players add @s ag_owned 1

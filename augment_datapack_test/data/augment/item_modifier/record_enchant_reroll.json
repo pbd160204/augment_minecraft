@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "augment:runtime"
+  },
+  "ops": [
+    {
+      "source": "reroll_payload.augment.enchant_rerolls",
+      "target": "augment.enchant_rerolls",
+      "op": "replace"
+    }
+  ]
+}

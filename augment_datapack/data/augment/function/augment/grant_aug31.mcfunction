@@ -3,6 +3,9 @@ scoreboard players set @s ag_aug31 1
 scoreboard players add @s ag_owned 1
 scoreboard players add @s ag_catquest 1
 scoreboard players operation @s ag_cakeseen = @s ag_cakecraft
+scoreboard players operation @s ag_pieseen = @s ag_piecraft
+scoreboard players set @s ag_cakepart 0
+scoreboard players set @s ag_piepart 0
 scoreboard players set @s ag_cakedone 0
-tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"혈당 스파이크 획득 - 케이크를 제작해 퀘스트를 완료하세요.","color":"red"}]
+tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"혈당 스파이크 획득 - 케이크와 호박파이를 모두 제작해 퀘스트를 완료하세요.","color":"red"}]
 function augment:augment/finalize_choice

@@ -1,0 +1,2 @@
+give @s minecraft:snowball[minecraft:custom_name={text:"\ub09a\uc2dc \uc790\uaca9\uc99d",color:"aqua",italic:false},minecraft:item_model="minecraft:buried_treasure_map",minecraft:lore=[{text:"\uc624\ub978\uc190\uc5d0 \ub4e4\uace0 \uc6b0\ud074\ub9ad",color:"gray",italic:false}],minecraft:custom_data={augment:{tool:"fishing_certificate"}}] 1
+execute at @s run kill @e[type=minecraft:snowball,distance=..4,sort=nearest,limit=1]

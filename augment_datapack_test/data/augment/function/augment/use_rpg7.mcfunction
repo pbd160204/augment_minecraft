@@ -1,0 +1,40 @@
+execute if score @s ag_rpgcool matches 1.. run return fail
+scoreboard players set @s ag_rpgfound 0
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:0b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_0
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:1b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_1
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:2b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_2
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:3b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_3
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:4b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_4
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:5b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_5
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:6b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_6
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:7b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_7
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:8b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_8
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:9b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_9
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:10b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_10
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:11b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_11
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:12b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_12
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:13b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_13
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:14b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_14
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:15b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_15
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:16b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_16
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:17b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_17
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:18b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_18
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:19b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_19
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:20b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_20
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:21b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_21
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:22b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_22
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:23b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_23
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:24b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_24
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:25b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_25
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:26b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_26
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:27b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_27
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:28b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_28
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:29b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_29
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:30b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_30
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:31b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_31
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:32b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_32
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:33b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_33
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:34b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_34
+execute if score @s ag_rpgfound matches 0 if data entity @s Inventory[{Slot:35b,id:"minecraft:splash_potion"}] run function augment:augment/rpg7_slot_35
+execute if score @s ag_rpgfound matches 0 run tellraw @s [{"text":"[RPG-7] ","color":"gold"},{"text":"\uC778\uBCA4\uD1A0\uB9AC\uC5D0 \uD22C\uCC99\uC6A9 \uBB3C\uC57D\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.","color":"red"}]
+execute if score @s ag_rpgfound matches 1.. run scoreboard players set @s ag_rpgcool 6

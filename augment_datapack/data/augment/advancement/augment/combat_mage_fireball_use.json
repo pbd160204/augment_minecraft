@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume_fireball": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:paper"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "augment:augment/handle_fireball_use"
+  }
+}

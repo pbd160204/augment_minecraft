@@ -19,7 +19,7 @@ scoreboard players set #dmnext ag_math 0
 scoreboard players set #arena_ready ag_math 0
 scoreboard players set #hour ag_math 54000
 scoreboard players set #xpperiod ag_math 3600
-scoreboard players set #five ag_math 4
+scoreboard players set #five ag_math 5
 scoreboard players set #shrinkstep ag_math 6000
 scoreboard players set #thirty ag_math 300
 scoreboard players set #twenty ag_math 19

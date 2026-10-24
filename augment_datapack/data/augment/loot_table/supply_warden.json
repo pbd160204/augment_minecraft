@@ -7,9 +7,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 10
             }
           ]
@@ -39,10 +39,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:phantom_membrane",
-          "functions": [
+          "name": "minecraft:quartz",
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
                   "text": "\uBC1C\uAD11 \uCC28\uD3D0\uB9C9",
@@ -68,9 +68,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_shovel",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
                   "text": "\uAEBC\uC838!",
@@ -93,13 +93,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snowball",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 2
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
                   "text": "\uC778\uCC48\uD2B8 \uB9AC\uB864\uB7EC",
@@ -127,16 +127,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snowball",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
-                  "text": "\uD14C\uC2A4\uCE74\uC774",
+                  "text": "\uD15F\uCE74\uC774",
                   "color": "gray",
                   "italic": false
                 },
-                "minecraft:item_model": "minecraft:iron_ingot",
+                "minecraft:item_model": "minecraft:iron_block",
                 "minecraft:lore": [
                   {
                     "text": "10\uCD08\uAC04 \uAD6C\uC18D 255\uC640 \uC800\uD56D 255\uB97C \uC5BB\uC2B5\uB2C8\uB2E4.",
@@ -157,9 +157,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:snowball",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
                   "text": "\uC9C4\uC9DC \uD22C\uBA85\uD654",
@@ -187,13 +187,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tipped_arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
-              "count": 5
+              "type": "minecraft:set_count",
+              "count": 3
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
                   "text": "\uD30C\uC0C1\uD48D \uD654\uC0B4",
@@ -221,7 +221,7 @@
                     {"id": "minecraft:weakness", "amplifier": 0, "duration": 1120},
                     {"id": "minecraft:hunger", "amplifier": 0, "duration": 1120},
                     {"id": "minecraft:poison", "amplifier": 0, "duration": 1120},
-                    {"id": "minecraft:levitation", "amplifier": 0, "duration": 1120},
+                    {"id": "minecraft:levitation", "amplifier": 0, "duration": 480},
                     {"id": "minecraft:slowness", "amplifier": 1, "duration": 1120}
                   ]
                 },

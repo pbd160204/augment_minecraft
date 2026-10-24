@@ -3,12 +3,17 @@ effect clear @s
 gamemode survival @s
 attribute @s minecraft:max_health base set 20
 attribute @s minecraft:scale base set 1
+attribute @s minecraft:entity_interaction_range modifier remove augment:quantum_reach
+attribute @s minecraft:entity_interaction_range modifier remove augment:relativity_reach
+tag @s remove augment.quantum_reach
+tag @s remove augment.relativity_reach
 data modify entity @s Health set value 20.0f
 data modify entity @s foodLevel set value 20
 data modify entity @s foodSaturationLevel set value 20.0f
 data modify entity @s foodExhaustionLevel set value 0.0f
 scoreboard players set @s ag_alive 1
 scoreboard players set @s ag_points 0
+scoreboard players set @s ag_firstnormal 0
 scoreboard players set @s ag_lvlband 0
 scoreboard players set @s ag_lvlseen 0
 scoreboard players set @s ag_lvlraw 0
@@ -18,6 +23,7 @@ scoreboard players set @s ag_ginvuln 0
 scoreboard players set @s ag_c1 0
 scoreboard players set @s ag_c2 0
 scoreboard players set @s ag_c3 0
+scoreboard players set @s ag_c4 0
 scoreboard players set @s ag_menuopen 0
 scoreboard players set @s ag_mwait 0
 scoreboard players set @s ag_menu 0
@@ -29,10 +35,9 @@ scoreboard players set @s ag_shopbuy 0
 scoreboard players set @s ag_adv_enchant 0
 scoreboard players set @s ag_anvil 0
 scoreboard players set @s ag_lapis 0
-scoreboard players operation @s ag_fireseen = @s ag_fireuse
 scoreboard players operation @s ag_snowseen = @s ag_snowuse
 scoreboard players operation @s ag_shopseen = @s ag_shopuse
-tag @s remove augment.fireball_armed
+tag @s remove augment.fireball_test
 tag @s remove augment.bomb_charge_armed
 tag @s remove augment.bomb_charge_placed
 tag @s remove augment.age25_catalyst_armed
@@ -48,6 +53,15 @@ tag @s remove augment.tetkai_armed
 tag @s remove augment.tetkai_offhand_armed
 tag @s remove augment.true_invisibility_armed
 tag @s remove augment.true_invisibility_offhand_armed
+tag @s remove augment.fishing_certificate_armed
+tag @s remove augment.fishing_certificate_offhand_armed
+tag @s remove augment.enchant_ticket_armed
+tag @s remove augment.enchant_ticket_offhand_armed
+tag @s remove augment.fish_helmet_present
+tag @s remove augment.fish_chestplate_present
+tag @s remove augment.fish_leggings_present
+tag @s remove augment.fish_boots_present
+tag @s remove augment.legendary_mackerel_present
 scoreboard players set @s ag_owned 0
 scoreboard players set @s ag_tetkai 0
 scoreboard players set @s ag_advowned 0
@@ -139,13 +153,6 @@ tag @s remove augment.jungle_strike_armed
 scoreboard players set @s ag_aug31 0
 scoreboard players set @s ag_aug32 0
 tag @s remove augment.golden_goblin
-tag @s remove augment.scramblecraft
-tag @s remove augment.scramble_map_1
-tag @s remove augment.scramble_map_2
-tag @s remove augment.scramble_map_3
-tag @s remove augment.scramble_map_4
-tag @s remove augment.scramble_map_5
-tag @s remove augment.scramble_map_6
 scoreboard players set @s ag_aug33 0
 scoreboard players set @s ag_aug34 0
 scoreboard players set @s ag_aug35 0
@@ -155,18 +162,38 @@ scoreboard players set @s ag_aug38 0
 scoreboard players set @s ag_aug39 0
 scoreboard players set @s ag_aug40 0
 scoreboard players set @s ag_aug41 0
+scoreboard players set @s ag_aug42 0
+scoreboard players set @s ag_aug43 0
+scoreboard players set @s ag_fishdone 0
+scoreboard players set @s ag_fishxp 0
+scoreboard players set @s ag_fishfake1 0
+scoreboard players set @s ag_fishfake2 0
+scoreboard players set @s ag_fishfake3 0
+scoreboard players set @s ag_fishfake4 0
 function augment:quest/six_master_reset
 tag @s remove augment.six_master_armed
+tag @s remove augment.rpg7_armed
+tag @s remove augment.lower_wand_armed
+scoreboard players operation @s ag_rpgseen = @s ag_rpguse
+scoreboard players set @s ag_rpgcool 0
 scoreboard players operation @s ag_scaleseen = @s ag_scaleuse
 scoreboard players operation @s ag_azeriseen = @s ag_azeriuse
 scoreboard players set @s ag_escapeused 0
 scoreboard players operation @s ag_cakeseen = @s ag_cakecraft
+scoreboard players operation @s ag_pieseen = @s ag_piecraft
+scoreboard players set @s ag_cakepart 0
+scoreboard players set @s ag_piepart 0
 scoreboard players set @s ag_cakedone 0
 scoreboard players set @s ag_questdone 0
 scoreboard players set @s ag_aaug8 0
 scoreboard players set @s ag_aaug9 0
 scoreboard players set @s ag_contractdone 0
 scoreboard players set @s ag_contractclear 0
+scoreboard players set @s ag_contractpool 0
+scoreboard players set @s ag_contractroll 0
+scoreboard players set @s ag_contractcursor 0
+scoreboard players set @s ag_contractbonus 0
+scoreboard players set @s ag_bonusgrant 0
 scoreboard players set @s ag_potxp 0
 scoreboard players set @s ag_aaug1 0
 scoreboard players set @s ag_aaug2 0

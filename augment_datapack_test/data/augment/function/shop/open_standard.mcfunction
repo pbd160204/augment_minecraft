@@ -1,4 +1,5 @@
 tellraw @s [{"text":"[1] 황금 당근 2개 - 다이아 1","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 1"}}]
+execute if score @s ag_aug40 matches 1.. run function augment:shop/open_artificial_diamond
 tellraw @s [{"text":"[2] 거미줄 1개 - 다이아 1","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 2"}}]
 tellraw @s [{"text":"[5] 엔더 진주 1개 - 다이아 5","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 5"}}]
 tellraw @s [{"text":"[6] 네더라이트 곡괭이 - 다이아 10","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 6"}}]

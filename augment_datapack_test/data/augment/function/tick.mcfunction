@@ -18,7 +18,8 @@ execute if score #state ag_math matches 0 as @a[name=!pbd160204,gamemode=!advent
 execute if score #state ag_math matches 0 run team join augment_lobby @a
 execute if score #state ag_math matches 0 run effect give @a minecraft:saturation 2 0 true
 execute as @a[scores={ag_sixcool=1..}] run scoreboard players remove @s ag_sixcool 1
-execute as @a run function augment:augment/item_use_tick
+execute as @a[scores={ag_rpgcool=1..}] run scoreboard players remove @s ag_rpgcool 1
+execute as @a run function augment:augment/item_use_safe_tick
 execute as @a run function augment:quest/process_smelted_potatoes
 execute as @a run function augment:augment/passive_effects
 execute as @a[scores={ag_tetkai=1..}] run function augment:augment/tick_tetkai
@@ -30,4 +31,7 @@ execute if score #travelerui ag_math matches 100.. as @a[scores={ag_alive=1,ag_a
 execute if score #travelerui ag_math matches 100.. run scoreboard players set #travelerui ag_math 0
 execute if score #synergyui ag_math matches 40.. as @a run function augment:category/show_synergy_progress
 execute if score #synergyui ag_math matches 40.. run scoreboard players set #synergyui ag_math 0
+execute as @a if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"rpg7"}}] run function augment:augment/show_rpg7_ammo
+execute as @a if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{augment:{tool:"lower_wand"}}] run function augment:augment/show_rpg7_ammo
+execute as @a if items entity @s weapon.mainhand minecraft:snowball[minecraft:custom_data~{augment:{tool:"age30_catalyst"}}] run function augment:augment/show_age30_catalyst_cost
 execute if score #state ag_math matches 1.. run function augment:game/active_tick

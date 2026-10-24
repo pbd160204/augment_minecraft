@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "확장 상점", "color": "aqua"},
+  "body": [
+    {"type": "minecraft:plain_message", "contents": {"text": "확장 품목을 보여주는 테스트 화면입니다. 구매는 처리되지 않습니다.", "color": "gray"}, "width": 300},
+    {"type": "minecraft:item", "item": {"id": "minecraft:elytra", "count": 1}, "description": {"contents": "겉날개 · 다이아 320개 (할인 전 표시 예시)", "width": 220}},
+    {"type": "minecraft:item", "item": {"id": "minecraft:mace", "count": 1}, "description": {"contents": "철퇴 · 다이아 45개", "width": 220}},
+    {"type": "minecraft:item", "item": {"id": "minecraft:netherite_ingot", "count": 1}, "description": {"contents": "심층암 파쇄기 · 다이아 16개", "width": 220}}
+  ],
+  "actions": [
+    {"label": "구매 테스트: 겉날개", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "구매 테스트: 철퇴", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "구매 테스트: 심층암 파쇄기", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "상점 첫 화면", "action": {"type": "show_dialog", "dialog": "augment:shop_test/home"}}
+  ],
+  "columns": 1,
+  "pause": false,
+  "after_action": "none",
+  "can_close_with_escape": true
+}

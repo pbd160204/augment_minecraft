@@ -1,4 +1,5 @@
 tellraw @s [{"text":"[\uCC44\uAD74 3\uC911\uCCA9] \uAE30\uBCF8 \uD488\uBAA9 30% \uD560\uC778","color":"aqua"}]
+execute if score @s ag_aug40 matches 1.. run function augment:shop/open_artificial_diamond
 tellraw @s [{"text":"[1] \uD669\uAE08 \uB2F9\uADFC 2\uAC1C - \uB2E4\uC774\uC544 1","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 1"}}]
 tellraw @s [{"text":"[2] \uAC70\uBBF8\uC904 1\uAC1C - \uB2E4\uC774\uC544 1","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 2"}}]
 tellraw @s [{"text":"[5] \uC5D4\uB354 \uC9C4\uC8FC 1\uAC1C - \uB2E4\uC774\uC544 4","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 5"}}]

@@ -7,8 +7,12 @@ scoreboard players set #tmp ag_math 0
 execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"sharpness"}}] run scoreboard players set #tmp ag_math 1
 execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"protection"}}] run scoreboard players set #tmp ag_math 1
 execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"efficiency"}}] run scoreboard players set #tmp ag_math 1
+execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"fortune"}}] run scoreboard players set #tmp ag_math 1
+execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"power"}}] run scoreboard players set #tmp ag_math 1
 execute if score #tmp ag_math matches 0 run tellraw @s [{"text":"[Augment] 모렐로노미콘으로 얻은 강화 책을 왼손에 들어야 합니다.","color":"red"}]
 execute if score #tmp ag_math matches 0 run return fail
 execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"sharpness"}}] run function augment:augment/apply_free_anvil_sharpness
 execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"protection"}}] run function augment:augment/apply_free_anvil_protection
 execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"efficiency"}}] run function augment:augment/apply_free_anvil_efficiency
+execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"fortune"}}] run function augment:augment/apply_free_anvil_fortune
+execute if items entity @s weapon.offhand minecraft:enchanted_book[minecraft:custom_data~{augment:{free_anvil:"power"}}] run function augment:augment/apply_free_anvil_power

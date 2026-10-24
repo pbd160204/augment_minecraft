@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:set_enchantments",
+  "enchantments": {
+    "minecraft:power": 2
+  },
+  "add": true
+}

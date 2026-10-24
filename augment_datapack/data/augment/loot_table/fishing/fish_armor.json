@@ -1,0 +1,182 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 투구",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_helmet_armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_helmet_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_helmet"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 흉갑",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_chestplate_armor",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_chestplate_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_chestplate"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 바지",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_leggings_armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_leggings_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_leggings"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "물고기 신발",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "augment:fish_boots_armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "augment:fish_boots_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "augment": {
+                    "fishing_item": "fish_boots"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

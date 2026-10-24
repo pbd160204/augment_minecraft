@@ -1,4 +1,5 @@
 gamerule minecraft:keep_inventory true
+gamerule minecraft:immediate_respawn true
 gamerule minecraft:players_sleeping_percentage 100
 gamerule minecraft:random_tick_speed 3
 scoreboard players set #state ag_math 0
@@ -24,6 +25,7 @@ function augment:game/cleanup_supplies
 execute as @a run function augment:player/reset_after_match
 clear @a
 effect clear @a
+execute in minecraft:overworld run spawnpoint @a 0 0 0
 tp @a 0 0 0
 gamemode adventure @a
 tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"경기가 종료되었습니다. 모든 플레이어를 로비로 이동합니다.","color":"white"}]

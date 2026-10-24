@@ -19,6 +19,15 @@ scoreboard objectives add ag_shopuse minecraft.used:minecraft.spyglass
 scoreboard objectives add ag_shopseen dummy
 scoreboard objectives add ag_fireid dummy
 scoreboard objectives add ag_fireowner dummy
+scoreboard objectives add ag_firox dummy
+scoreboard objectives add ag_firoy dummy
+scoreboard objectives add ag_firoz dummy
+scoreboard objectives add ag_firtx dummy
+scoreboard objectives add ag_firty dummy
+scoreboard objectives add ag_firtz dummy
+scoreboard objectives add ag_firdx dummy
+scoreboard objectives add ag_firdy dummy
+scoreboard objectives add ag_firdz dummy
 scoreboard objectives add ag_aug15 dummy
 scoreboard objectives add ag_catquest dummy
 scoreboard objectives add ag_pkill minecraft.killed:minecraft.player
@@ -57,11 +66,20 @@ scoreboard objectives add ag_lorentzz dummy
 scoreboard objectives add ag_lorentzedge dummy
 scoreboard objectives add ag_scaleuse minecraft.used:minecraft.snowball
 scoreboard objectives add ag_scaleseen dummy
+scoreboard objectives add ag_snowuse minecraft.used:minecraft.snowball
+scoreboard objectives add ag_snowseen dummy
 scoreboard objectives add ag_aug37 dummy
 scoreboard objectives add ag_aug38 dummy
 scoreboard objectives add ag_aug39 dummy
 scoreboard objectives add ag_aug40 dummy
 scoreboard objectives add ag_aug41 dummy
+scoreboard objectives add ag_aug42 dummy
+scoreboard objectives add ag_aug43 dummy
+scoreboard objectives add ag_fishdone dummy
+scoreboard objectives add ag_fishxp dummy
+scoreboard objectives add ag_fishfake1 dummy
+scoreboard objectives add ag_fishfake2 dummy
+scoreboard objectives add ag_fishfake3 dummy
 scoreboard objectives add ag_sixcount dummy
 scoreboard objectives add ag_sixdone dummy
 scoreboard objectives add ag_sixuse minecraft.used:minecraft.carrot_on_a_stick
@@ -75,8 +93,25 @@ scoreboard objectives add ag_azeri_level dummy
 scoreboard objectives add ag_azeri_power dummy
 scoreboard objectives add ag_azeriuse minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ag_azeriseen dummy
+scoreboard objectives add ag_rpguse minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add ag_rpgseen dummy
+scoreboard objectives add ag_rpgfound dummy
+scoreboard objectives add ag_rpgcool dummy
+scoreboard objectives add ag_rpgox dummy
+scoreboard objectives add ag_rpgoy dummy
+scoreboard objectives add ag_rpgoz dummy
+scoreboard objectives add ag_rpgtx dummy
+scoreboard objectives add ag_rpgty dummy
+scoreboard objectives add ag_rpgtz dummy
+scoreboard objectives add ag_rpgdx dummy
+scoreboard objectives add ag_rpgdy dummy
+scoreboard objectives add ag_rpgdz dummy
 scoreboard objectives add ag_cakecraft minecraft.crafted:minecraft.cake
 scoreboard objectives add ag_cakeseen dummy
+scoreboard objectives add ag_piecraft minecraft.crafted:minecraft.pumpkin_pie
+scoreboard objectives add ag_pieseen dummy
+scoreboard objectives add ag_cakepart dummy
+scoreboard objectives add ag_piepart dummy
 scoreboard objectives add ag_cakedone dummy
 scoreboard objectives add ag_questdone dummy
 scoreboard objectives add ag_aaug8 dummy
@@ -85,8 +120,18 @@ execute as @a[scores={ag_aug27=1..,ag_aaug9=..0}] run scoreboard players set @s 
 execute as @a[scores={ag_aug27=1..}] run scoreboard players set @s ag_aug27 0
 scoreboard objectives add ag_contractdone dummy
 scoreboard objectives add ag_contractclear dummy
+scoreboard objectives add ag_contractpool dummy
+scoreboard objectives add ag_contractroll dummy
+scoreboard objectives add ag_contractcursor dummy
+scoreboard objectives add ag_contractbonus dummy
+scoreboard objectives add ag_bonusgrant dummy
 scoreboard objectives add ag_supplyhp dummy
 scoreboard objectives add ag_normalleft dummy
+scoreboard objectives add ag_c4 dummy
+scoreboard objectives add ag_fishfake4 dummy
+scoreboard objectives add ag_firstnormal dummy
+scoreboard objectives add ag_bluebfix dummy
+execute as @a[scores={ag_aug12=1..,ag_bluebfix=..0}] run function augment:migrate_blueblind_category
 scoreboard players set @a[scores={ag_contractdone=1..}] ag_contractclear 0
 bossbar add augment:gather_time {"text":"파밍 시간","color":"green"}
 bossbar set augment:gather_time max 54000
@@ -110,7 +155,12 @@ scoreboard players add @a ag_lasty 0
 scoreboard players add @a ag_lastz 0
 scoreboard players add @a ag_shopseen 0
 scoreboard players add @a ag_farmshop 0
-scoreboard players set #five ag_math 4
+scoreboard players add @a ag_contractpool 0
+scoreboard players add @a ag_contractroll 0
+scoreboard players add @a ag_contractcursor 0
+scoreboard players add @a ag_contractbonus 0
+scoreboard players add @a ag_bonusgrant 0
+scoreboard players set #five ag_math 5
 scoreboard players set #thirty ag_math 300
 
 scoreboard players set #xpamount ag_math 55

@@ -1,0 +1,4 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [{"rolls": 1, "entries": [{"type": "minecraft:item", "name": "minecraft:snowball", "modifier": [{"type": "minecraft:set_components", "components": {"minecraft:custom_name": {"text": "\ub09a\uc2dc \uc790\uaca9\uc99d", "color": "aqua", "italic": false}, "minecraft:item_model": "minecraft:buried_treasure_map", "minecraft:lore": [{"text": "\uc624\ub978\uc190\uc5d0 \ub4e4\uace0 \uc6b0\ud074\ub9ad\ud558\uc5ec \ub09a\uc2dc\uafbc\uc73c\ub85c \uc804\uc9c1", "color": "gray", "italic": false}], "minecraft:custom_data": {"augment": {"tool": "fishing_certificate"}}}}]}]}]
+}

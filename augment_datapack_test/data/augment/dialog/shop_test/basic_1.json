@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "기본 상점 · 1쪽", "color": "gold"},
+  "body": [
+    {"type": "minecraft:plain_message", "contents": {"text": "표시용 가격입니다. 구매 테스트 버튼은 아무것도 지급하지 않습니다.", "color": "gray"}, "width": 300},
+    {"type": "minecraft:item", "item": {"id": "minecraft:golden_carrot", "count": 2}, "description": {"contents": "황금 당근 2개 · 다이아 1개", "width": 220}},
+    {"type": "minecraft:item", "item": {"id": "minecraft:cobweb", "count": 1}, "description": {"contents": "거미줄 1개 · 다이아 1개", "width": 220}},
+    {"type": "minecraft:item", "item": {"id": "minecraft:firework_rocket", "count": 1}, "description": {"contents": "폭죽 1개 · 다이아 1개", "width": 220}}
+  ],
+  "actions": [
+    {"label": "구매 테스트: 황금 당근", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "구매 테스트: 거미줄", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "구매 테스트: 폭죽", "action": {"type": "show_dialog", "dialog": "augment:shop_test/selected"}},
+    {"label": "다음 쪽 →", "action": {"type": "show_dialog", "dialog": "augment:shop_test/basic_2"}},
+    {"label": "상점 첫 화면", "action": {"type": "show_dialog", "dialog": "augment:shop_test/home"}}
+  ],
+  "columns": 1,
+  "pause": false,
+  "after_action": "none",
+  "can_close_with_escape": true
+}

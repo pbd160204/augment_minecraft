@@ -1,4 +1,16 @@
 scoreboard players add @s ag_bsurv 1
+execute if score @s ag_bsurv matches 3 run function augment:category/title_times
+execute if score @s ag_bsurv matches 3 run title @s title {"text":"[생존] 시너지 달성!","color":"gold"}
+execute if score @s ag_bsurv matches 3 run title @s subtitle {"text":"3중첩: 최대 체력 +6","color":"aqua"}
+execute if score @s ag_bsurv matches 4 run function augment:category/title_times
+execute if score @s ag_bsurv matches 4 run title @s title {"text":"[생존] 시너지 달성!","color":"gold"}
+execute if score @s ag_bsurv matches 4 run title @s subtitle {"text":"4중첩: 최대 체력 +12","color":"aqua"}
+execute if score @s ag_bsurv matches 5 run function augment:category/title_times
+execute if score @s ag_bsurv matches 5 run title @s title {"text":"[생존] 시너지 달성!","color":"gold"}
+execute if score @s ag_bsurv matches 5 run title @s subtitle {"text":"5중첩: 최대 체력 +18","color":"aqua"}
+execute if score @s ag_bsurv matches 7 run function augment:category/title_times
+execute if score @s ag_bsurv matches 7 run title @s title {"text":"[생존] 시너지 달성!","color":"gold"}
+execute if score @s ag_bsurv matches 7 run title @s subtitle {"text":"7중첩: 불사의 토템 획득","color":"aqua"}
 execute if score @s ag_bsurv matches 3 run tellraw @s [{"text":"[계열 보너스] ","color":"gold"},{"text":"생존 3 달성 - 최대 체력 +6이 활성화되었습니다.","color":"aqua"}]
 execute if score @s ag_bsurv matches 4 run tellraw @s [{"text":"[계열 보너스] ","color":"gold"},{"text":"생존 4 달성 - 최대 체력 +12가 활성화되었습니다.","color":"aqua"}]
 execute if score @s ag_bsurv matches 5 run tellraw @s [{"text":"[계열 보너스] ","color":"gold"},{"text":"생존 5 달성 - 최대 체력 +18이 활성화되었습니다.","color":"aqua"}]

@@ -2,6 +2,6 @@ execute if score @s ag_aug33 matches 1.. run return fail
 scoreboard players set @s ag_aug33 1
 scoreboard players add @s ag_owned 1
 scoreboard players add @s ag_catcomb 1
-attribute @s minecraft:scale base set 0.65
-tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"양자역학 획득 - 크기가 35% 작아지며 공격 피해가 2 감소합니다.","color":"red"}]
+attribute @s minecraft:scale base set 0.7
+tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"양자역학 획득 - 크기가 30% 작아지며 공격 피해가 2·사거리가 0.3 감소합니다.","color":"red"}]
 function augment:augment/finalize_choice

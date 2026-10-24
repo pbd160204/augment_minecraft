@@ -46,7 +46,6 @@ scoreboard players set #pause ag_math 0
 scoreboard players set #timer ag_math 0
 scoreboard players set #xpcycle ag_math 0
 scoreboard players set #xpamount ag_math 55
-execute store result score #scramble_map ag_math run random value 1..6
 scoreboard players set #bsize ag_math 1000
 scoreboard players set #bnext ag_math 6000
 scoreboard players set #bprog ag_math 0
@@ -72,8 +71,8 @@ function augment:game/spread_players
 gamerule minecraft:immediate_respawn true
 kill @a[scores={ag_alive=1}]
 execute as @a[scores={ag_alive=1}] run scoreboard players operation @s ag_dseen = @s ag_deaths
-gamerule minecraft:immediate_respawn false
 execute as @a[scores={ag_alive=1}] run function augment:shop/give_remote
 execute as @a[scores={ag_alive=1}] run function augment:augment/give_list_remote
 execute as @a[scores={ag_alive=1}] run function augment:augment/give_menu_remote
+function augment:game/grant_xp_cycle
 tellraw @a [{"text":"[Augment] ","color":"gold"},{"text":"경기가 시작되었습니다. 45분 동안 자원 수집 후 PvP가 활성화됩니다.","color":"green"}]

@@ -4,7 +4,9 @@ execute if score @s ag_am1 matches 3 run function augment:augment/grant_aaug3
 execute if score @s ag_am1 matches 4 run function augment:augment/grant_aaug4
 execute if score @s ag_am1 matches 5 run function augment:augment/grant_aaug5
 execute if score @s ag_am1 matches 6 run function augment:augment/grant_aaug6
-execute if score @s ag_am1 matches 7 run function augment:augment/grant_aaug7
+execute if score @s ag_am1 matches 7 run scoreboard players set @s ag_advopen 0
+execute if score @s ag_am1 matches 7 run scoreboard players set @s ag_am1 0
+execute if score @s ag_am1 matches 7 run function augment:augment/open_adv_menu_v2
 execute if score @s ag_am1 matches 8 run function augment:augment/grant_aaug8
 execute if score @s ag_am1 matches 9 run function augment:augment/grant_aaug9
 execute if score @s ag_am1 matches 10 run function augment:augment/grant_aug1

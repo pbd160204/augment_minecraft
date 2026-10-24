@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "테스트 상점", "color": "gold"},
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"text": "화면 전환과 구매 버튼 배치만 확인하는 테스트입니다. 실제 구매나 재화 차감은 없습니다.", "color": "gray"},
+      "width": 300
+    }
+  ],
+  "actions": [
+    {"label": "기본 상점 · 1쪽", "action": {"type": "show_dialog", "dialog": "augment:shop_test/basic_1"}},
+    {"label": "기본 상점 · 2쪽", "action": {"type": "show_dialog", "dialog": "augment:shop_test/basic_2"}},
+    {"label": "확장 상점", "action": {"type": "show_dialog", "dialog": "augment:shop_test/upgraded"}},
+    {"label": "물고기 상점", "action": {"type": "show_dialog", "dialog": "augment:shop_test/fish"}}
+  ],
+  "columns": 2,
+  "pause": false,
+  "after_action": "none",
+  "can_close_with_escape": true
+}

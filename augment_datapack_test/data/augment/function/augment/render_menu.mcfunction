@@ -4,4 +4,5 @@ tellraw @s [{"text":"아래 항목을 클릭해서 선택하세요. 선택하지
 function augment:augment/render_slot1
 execute if score @s ag_c2 matches 1.. run function augment:augment/render_slot2
 execute if score @s ag_c3 matches 1.. run function augment:augment/render_slot3
+execute if score @s ag_c4 matches 1.. run function augment:augment/render_slot4
 tellraw @s [{"text":"고급 증강 메뉴 열기","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_advmenu set 1"},"hover_event":{"action":"show_text","value":"클릭하여 고급 증강 메뉴 열기"}}]

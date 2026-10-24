@@ -13,4 +13,5 @@ scoreboard objectives add ag_lvlband dummy
 scoreboard objectives add ag_lvlseen dummy
 scoreboard objectives add ag_lvlraw dummy
 scoreboard objectives add ag_normalleft dummy
+scoreboard objectives add ag_c4 dummy
 scoreboard players set #daylen ag_math 24000

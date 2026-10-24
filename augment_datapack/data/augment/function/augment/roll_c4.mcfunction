@@ -1,0 +1,59 @@
+execute store result score #tmp ag_math run random value 1..41
+execute if score #tmp ag_math matches 19.. run scoreboard players add #tmp ag_math 1
+execute if score #tmp ag_math matches 27.. run scoreboard players add #tmp ag_math 1
+scoreboard players operation @s ag_c4 = #tmp ag_math
+execute if score @s ag_c4 = @s ag_c1 run function augment:augment/roll_c4
+execute if score @s ag_c4 = @s ag_c2 run function augment:augment/roll_c4
+execute if score @s ag_c4 = @s ag_c3 run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 1 if score @s ag_aug1 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 2 if score @s ag_aug2 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 3 if score @s ag_aug3 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 4 if score @s ag_aug4 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 5 if score @s ag_aug5 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 6 if score @s ag_aug6 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 7 if score @s ag_aug7 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 8 if score @s ag_aug8 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 9 if score @s ag_aug9 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 10 if score @s ag_aug10 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 11 if score @s ag_aug11 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 12 if score @s ag_aug12 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 13 if score @s ag_aug13 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 14 if score @s ag_aug14 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 15 if score @s ag_aug15 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 16 if score @s ag_aug16 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 17 if score @s ag_aug17 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 18 if score @s ag_aug18 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 19 if score @s ag_aug19 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 20 if score @s ag_aug20 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 21 if score @s ag_aug21 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 22 if score @s ag_aug22 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 23 if score @s ag_aug23 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 24 if score @s ag_aug24 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 25 if score @s ag_aug25 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 26 if score @s ag_aug26 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 27 if score @s ag_aug27 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 28 if score @s ag_aug28 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 29 if score @s ag_aug29 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 30 if score @s ag_aug30 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 31 if score @s ag_aug31 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 32 if score @s ag_aug32 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 33 if score @s ag_aug33 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 34 if score @s ag_aug34 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 35 if score @s ag_aug35 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 36 if score @s ag_aug36 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 37 if score @s ag_aug37 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 38 if score @s ag_aug38 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 39 if score @s ag_aug39 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 40 if score @s ag_aug40 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 41 if score @s ag_aug41 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 42 if score @s ag_aug42 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 43 if score @s ag_aug43 matches 1.. run function augment:augment/roll_c4
+execute if score @s ag_lvlraw matches 31.. if score @s ag_c4 matches 15 run function augment:augment/roll_c4
+execute if score @s ag_lvlraw matches 31.. if score @s ag_c4 matches 28 run function augment:augment/roll_c4
+execute if score @s ag_lvlraw matches 31.. if score @s ag_c4 matches 29 run function augment:augment/roll_c4
+execute if score @s ag_lvlraw matches 31.. if score @s ag_c4 matches 30 run function augment:augment/roll_c4
+execute if score @s ag_lvlraw matches 31.. if score @s ag_c4 matches 31 run function augment:augment/roll_c4
+execute if score @s ag_lvlraw matches 31.. if score @s ag_c4 matches 41 run function augment:augment/roll_c4
+execute if score @s ag_lvlraw matches 31.. if score @s ag_c4 matches 42 run function augment:augment/roll_c4
+execute if score @s ag_c4 matches 42 run function augment:augment/roll_fishing_fake4
+
