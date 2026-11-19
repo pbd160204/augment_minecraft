@@ -1,5 +1,6 @@
 {
     "type":  "minecraft:enchant_with_levels",
     "levels":  30,
+    "options": "#minecraft:in_enchanting_table",
     "treasure":  false
 }

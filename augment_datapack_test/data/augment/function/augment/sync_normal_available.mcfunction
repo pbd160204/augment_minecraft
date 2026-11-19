@@ -15,6 +15,7 @@ execute if score @s ag_aug14 matches ..0 run scoreboard players add @s ag_normal
 execute if score @s ag_aug16 matches ..0 run scoreboard players add @s ag_normalleft 1
 execute if score @s ag_aug17 matches ..0 run scoreboard players add @s ag_normalleft 1
 execute if score @s ag_aug18 matches ..0 run scoreboard players add @s ag_normalleft 1
+execute if score @s ag_aug19 matches ..0 run scoreboard players add @s ag_normalleft 1
 execute if score @s ag_aug20 matches ..0 run scoreboard players add @s ag_normalleft 1
 execute if score @s ag_aug21 matches ..0 run scoreboard players add @s ag_normalleft 1
 execute if score @s ag_aug22 matches ..0 run scoreboard players add @s ag_normalleft 1

@@ -1,3 +1,4 @@
+execute as @a unless score @s ag_alchemymig matches 1 run function augment:migrate_alchemy_category
 scoreboard players enable @a ag_help
 scoreboard players enable @a ag_menu
 scoreboard players enable @a ag_pick

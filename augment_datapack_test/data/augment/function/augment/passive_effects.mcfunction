@@ -1,5 +1,6 @@
 execute store result score #daytime ag_math run time of minecraft:overworld query minecraft:day
 scoreboard players operation #daytime ag_math %= #daylen ag_math
+execute if score @s ag_aug21 matches 1.. run effect give @s minecraft:invisibility 2 0 true
 execute if score @s ag_contractdone matches 1.. run function augment:augment/passive_effects_contract
 execute if score @s ag_contractdone matches 1.. run return fail
 execute if score #dbg ag_test matches 1 run title @s actionbar [{"text":"dbg a1=","color":"yellow"},{"score":{"name":"@s","objective":"ag_aug1"},"color":"aqua"},{"text":" a3=","color":"yellow"},{"score":{"name":"@s","objective":"ag_aug3"},"color":"aqua"},{"text":" a25=","color":"yellow"},{"score":{"name":"@s","objective":"ag_aug25"},"color":"aqua"}]

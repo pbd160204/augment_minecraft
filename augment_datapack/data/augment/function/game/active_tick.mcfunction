@@ -13,6 +13,7 @@ execute if score #state ag_math matches 1 if score #timer ag_math matches 52800 
 execute if score #state ag_math matches 1 run function augment:game/gather_tick
 execute as @a[scores={ag_alive=1}] if score #state ag_math matches 2 if score @s ag_deaths = @s ag_dseen run function augment:player/record_last_position
 execute if score #state ag_math matches 2 run function augment:game/pvp_tick
+execute if score #state ag_math matches 2 run function augment:game/update_supply_glow
 execute if score #state ag_math matches 2 run function augment:game/update_supply_bossbar
 execute if score #state ag_math matches 1..2 run function augment:game/enforce_overworld
 execute as @a[scores={ag_mwait=1..}] run scoreboard players remove @s ag_mwait 1

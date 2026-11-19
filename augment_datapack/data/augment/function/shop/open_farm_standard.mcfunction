@@ -11,7 +11,6 @@ tellraw @s [{"text":"[10] 농부의 흉갑 - 비료 16","color":"green","click_e
 tellraw @s [{"text":"[11] 농부의 바지 - 비료 14","color":"green","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 11"}}]
 tellraw @s [{"text":"[12] 농부의 신발 - 비료 8","color":"green","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 12"}}]
 tellraw @s [{"text":"[13] 내구성 II 방패 - 비료 32","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 13"}}]
-execute if score @s ag_shopunlock matches 1.. run tellraw @s [{"text":"[15] 1분 투명화 물약 - 비료 10","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 15"}}]
 execute if score @s ag_aaug7 matches 1.. run tellraw @s [{"text":"[16] 심층암 파쇄기 - 비료 16","color":"aqua","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 16"}}]
 tellraw @s [{"text":"[17] 네더라이트 창 - 비료 6","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 17"}}]
 tellraw @s [{"text":"[25] 후렴과 1개 - 비료 2","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 25"}}]

@@ -30,6 +30,8 @@ scoreboard objectives add ag_firdy dummy
 scoreboard objectives add ag_firdz dummy
 scoreboard objectives add ag_aug15 dummy
 scoreboard objectives add ag_catquest dummy
+scoreboard objectives add ag_catalch dummy
+scoreboard objectives add ag_alchemymig dummy
 scoreboard objectives add ag_pkill minecraft.killed:minecraft.player
 scoreboard objectives add ag_pseen dummy
 scoreboard objectives add ag_qdone dummy
@@ -177,6 +179,11 @@ scoreboard players set #ten ag_math 10
 scoreboard players add #supplynext ag_math 0
 scoreboard players add #supplyspread ag_math 0
 scoreboard players add #supplymade ag_math 0
+scoreboard players add #supplystopped ag_math 0
+scoreboard players add #glowstart ag_math 0
+scoreboard players add #glowremaining ag_math 0
+scoreboard players add #glowminutes ag_math 0
+scoreboard players add #glowseconds ag_math 0
 scoreboard players add #deathmatch ag_math 0
 scoreboard players add #dmnext ag_math 0
 scoreboard players set #negone ag_math -1

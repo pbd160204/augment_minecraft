@@ -1,13 +1,7 @@
-execute if score #bsize ag_math matches ..200 run function augment:game/show_no_supply_bossbar
-execute if score #bsize ag_math matches ..200 run return fail
 execute if score #deathmatch ag_math matches 2.. run function augment:game/show_deathmatch_bossbar
 execute if score #deathmatch ag_math matches 2.. run return fail
-execute if score #bsize ag_math matches ..100 run bossbar set augment:supply_time max 1
-execute if score #bsize ag_math matches ..100 run bossbar set augment:supply_time value 0
-execute if score #bsize ag_math matches ..100 run bossbar set augment:supply_time name {"text":"보급 출현 불가: 경기장이 너무 좁습니다.","color":"red"}
-execute if score #bsize ag_math matches ..100 run bossbar set augment:supply_time players @a
-execute if score #bsize ag_math matches ..100 run bossbar set augment:supply_time visible true
-execute if score #bsize ag_math matches ..100 run return fail
+execute if score #bsize ag_math matches ..200 run function augment:game/show_supply_stop_bossbar
+execute if score #bsize ag_math matches ..200 run return fail
 scoreboard players operation #supply_remaining ag_math = #supplynext ag_math
 scoreboard players operation #supply_remaining ag_math -= #timer ag_math
 execute if score #supply_remaining ag_math matches ..0 run scoreboard players set #supply_remaining ag_math 0

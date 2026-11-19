@@ -279,7 +279,7 @@
           "modifier": [
             {
               "type": "minecraft:set_count",
-              "count": 10
+              "count": 7
             }
           ]
         },

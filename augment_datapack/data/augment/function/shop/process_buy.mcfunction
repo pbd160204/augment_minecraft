@@ -1,5 +1,5 @@
-execute unless score @s ag_shopbuy matches 1..34 run scoreboard players set @s ag_shopbuy 0
-execute unless score @s ag_shopbuy matches 1..34 run return fail
+execute unless score @s ag_shopbuy matches 1..35 run scoreboard players set @s ag_shopbuy 0
+execute unless score @s ag_shopbuy matches 1..35 run return fail
 execute if score @s ag_shopbuy matches 1 run function augment:shop/buy_1
 execute if score @s ag_shopbuy matches 2 run function augment:shop/buy_2
 execute if score @s ag_shopbuy matches 3 run function augment:shop/buy_3_mining
@@ -14,7 +14,6 @@ execute if score @s ag_shopbuy matches 11 run function augment:shop/buy_11
 execute if score @s ag_shopbuy matches 12 run function augment:shop/buy_12
 execute if score @s ag_shopbuy matches 13 run function augment:shop/buy_13
 execute if score @s ag_shopbuy matches 14 run function augment:shop/buy_14_mining
-execute if score @s ag_shopbuy matches 15 run function augment:shop/buy_15
 execute if score @s ag_shopbuy matches 16 run function augment:shop/buy_16
 execute if score @s ag_shopbuy matches 17 run function augment:shop/buy_17
 execute if score @s ag_shopbuy matches 18 run function augment:shop/buy_18
@@ -34,3 +33,4 @@ execute if score @s ag_shopbuy matches 31 run function augment:shop/buy_31
 execute if score @s ag_shopbuy matches 32 run function augment:shop/buy_32
 execute if score @s ag_shopbuy matches 33 run function augment:shop/buy_33
 execute if score @s ag_shopbuy matches 34 run function augment:shop/buy_34
+execute if score @s ag_shopbuy matches 35 run function augment:shop/buy_35

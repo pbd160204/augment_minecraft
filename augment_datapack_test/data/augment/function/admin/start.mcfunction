@@ -2,6 +2,7 @@ execute unless score #state ag_math matches 0 run tellraw @s [{"text":"[Augment]
 execute if score #state ag_math matches 1.. run return fail
 execute unless score #arena_ready ag_math matches 1.. run tellraw @s [{"text":"[Augment] ","color":"gold"},{"text":"먼저 /function augment:admin/set_arena 로 경기장을 설정하세요.","color":"red"}]
 execute unless score #arena_ready ag_math matches 1.. run return fail
+advancement revoke @a everything
 execute in minecraft:overworld run time set 0
 function augment:game/cleanup_supplies
 execute as @a run function augment:player/reset_for_match

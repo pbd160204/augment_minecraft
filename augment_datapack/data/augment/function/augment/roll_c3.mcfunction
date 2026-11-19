@@ -1,5 +1,4 @@
-execute store result score #tmp ag_math run random value 1..41
-execute if score #tmp ag_math matches 19.. run scoreboard players add #tmp ag_math 1
+execute store result score #tmp ag_math run random value 1..42
 execute if score #tmp ag_math matches 27.. run scoreboard players add #tmp ag_math 1
 scoreboard players operation @s ag_c3 = #tmp ag_math
 execute if score @s ag_c3 = @s ag_c1 run function augment:augment/roll_c3

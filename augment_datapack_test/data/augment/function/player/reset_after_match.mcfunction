@@ -56,6 +56,7 @@ scoreboard players set @s ag_catgrow 0
 scoreboard players set @s ag_catwiz 0
 scoreboard players set @s ag_catmine 0
 scoreboard players set @s ag_catquest 0
+scoreboard players set @s ag_catalch 0
 scoreboard players set @s ag_bsurv 0
 scoreboard players set @s ag_bcomb 0
 scoreboard players set @s ag_bgrow 0
@@ -68,7 +69,6 @@ scoreboard players set @s ag_echarges 0
 scoreboard players set @s ag_am1 0
 scoreboard players set @s ag_am2 0
 scoreboard players set @s ag_am3 0
-scoreboard players set @s ag_shopunlock 0
 scoreboard players set @s ag_farmshop 0
 scoreboard players set @s ag_hpbonus 0
 scoreboard players set @s ag_dmgbonus 0

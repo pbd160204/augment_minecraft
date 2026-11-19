@@ -11,6 +11,5 @@ tellraw @s [{"text":"[10] \uB124\uB354\uB77C\uC774\uD2B8 \uD749\uAC11 - \uB2E4\u
 tellraw @s [{"text":"[11] \uB124\uB354\uB77C\uC774\uD2B8 \uBC14\uC9C0 - \uB2E4\uC774\uC544 10","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 11"}}]
 tellraw @s [{"text":"[12] \uB124\uB354\uB77C\uC774\uD2B8 \uBD80\uCE20 - \uB2E4\uC774\uC544 6","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 12"}}]
 tellraw @s [{"text":"[13] \uB0B4\uAD6C\uC131 II \uBC29\uD328 - \uB2E4\uC774\uC544 23","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 13"}}]
-execute if score @s ag_shopunlock matches 1.. run tellraw @s [{"text":"[15] 1\uBD84 \uD22C\uBA85\uD654 \uBB3C\uC57D - \uB2E4\uC774\uC544 7","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 15"}}]
 execute if score @s ag_aaug7 matches 1.. run tellraw @s [{"text":"[16] \uC2EC\uCE35\uC554 \uD30C\uC1C4\uAE30 - \uB2E4\uC774\uC544 12","color":"aqua","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 16"}}]
 tellraw @s [{"text":"[17] \uB124\uB354\uB77C\uC774\uD2B8 \uCC3D - \uB2E4\uC774\uC544 5","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 17"}}]

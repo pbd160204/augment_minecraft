@@ -4,3 +4,4 @@ tellraw @s [{"text":"[28] \ubb3c\uace0\uae30 \ud749\uac11 - \uc775\ud788\uc9c0 \
 tellraw @s [{"text":"[29] \ubb3c\uace0\uae30 \ubc14\uc9c0 - \uc775\ud788\uc9c0 \uc54a\uc740 \ub300\uad6c 49\uac1c","color":"aqua","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 29"}}]
 tellraw @s [{"text":"[30] \ubb3c\uace0\uae30 \uc2e0\ubc1c - \uc775\ud788\uc9c0 \uc54a\uc740 \ub300\uad6c 28\uac1c","color":"aqua","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 30"}}]
 tellraw @s [{"text":"[31] \uc804\uc124\uc758 \uace0\ub4f1\uc5b4 - \uc775\ud788\uc9c0 \uc54a\uc740 \uc5f0\uc5b4 45\uac1c","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 31"}}]
+tellraw @s [{"text":"[35] \ub9c8\ubc95 \ubd80\uc5ec\uad8c - \uc775\ud788\uc9c0 \uc54a\uc740 \ub300\uad6c 32\uac1c","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 35"}}]

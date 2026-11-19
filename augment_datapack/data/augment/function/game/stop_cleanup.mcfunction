@@ -11,8 +11,11 @@ scoreboard players set #bprog ag_math 0
 scoreboard players set #bcool ag_math 0
 scoreboard players set #deathmatch ag_math 0
 scoreboard players set #dmnext ag_math 0
+scoreboard players set #supplystopped ag_math 0
+scoreboard players set #glowstart ag_math 0
 bossbar set augment:gather_time visible false
 bossbar set augment:supply_time visible false
+effect clear @a minecraft:glowing
 team leave @a
 effect clear @a minecraft:slowness
 effect clear @a minecraft:mining_fatigue

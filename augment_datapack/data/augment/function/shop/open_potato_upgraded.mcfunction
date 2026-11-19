@@ -13,7 +13,6 @@ tellraw @s [{"text":"[11] 네더라이트 바지 - 구운 감자 40","color":"go
 tellraw @s [{"text":"[12] 네더라이트 신발 - 구운 감자 24","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 12"}}]
 tellraw @s [{"text":"[13] 내구성 II 방패 - 구운 감자 92","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 13"}}]
 tellraw @s [{"text":"[14] 겉날개 - 구운 감자 896","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 14"}}]
-execute if score @s ag_shopunlock matches 1.. run tellraw @s [{"text":"[15] 1분 투명화 물약 - 구운 감자 28","color":"light_purple","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 15"}}]
 execute if score @s ag_aaug7 matches 1.. run tellraw @s [{"text":"[16] 심층암 파쇄기 - 구운 감자 48","color":"aqua","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 16"}}]
 tellraw @s [{"text":"[17] 네더라이트 창 - 구운 감자 20","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 17"}}]
 tellraw @s [{"text":"[18] 철퇴 - 구운 감자 180","color":"gold","click_event":{"action":"run_command","command":"/trigger ag_shopbuy set 18"}}]

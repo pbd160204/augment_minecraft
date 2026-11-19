@@ -7,6 +7,8 @@ scoreboard players set #deathmatch ag_math 0
 scoreboard players set #dmnext ag_math 0
 scoreboard players set #supplynext ag_math 6000
 scoreboard players set #supplyclock ag_math 0
+scoreboard players set #supplystopped ag_math 0
+scoreboard players set #glowstart ag_math 0
 bossbar set augment:gather_time visible false
 bossbar set augment:supply_time visible true
 effect clear @a[scores={ag_aaug2=1..}] minecraft:hunger
